@@ -1,0 +1,16 @@
+#244 byg:atacama_desert
+#6F6 minecraft:badlands
+#556 minecraft:beach
+#34D minecraft:deep_lukewarm_ocean
+#008 minecraft:desert
+#7F0 biomesoplenty:dryland
+#614 minecraft:eroded_badlands
+#79A minecraft:lukewarm_ocean
+#5FF minecraft:river
+#51A minecraft:stony_shore
+#400 minecraft:the_end
+#2B7 minecraft:warm_ocean
+#531 terralith:warm_river
+#5DF biomesoplenty:wasteland
+#467 byg:windswept_desert
+#56C biomesoplenty:wooded_wasteland

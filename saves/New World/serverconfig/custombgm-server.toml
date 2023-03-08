@@ -1,0 +1,7 @@
+
+#Server settings
+[server]
+	#How many ticks after an entity is no longer targeting a player to remove them from the targeting tracker.
+	#Range: > 0
+	combat_timeout = 0
+

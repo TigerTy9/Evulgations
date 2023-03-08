@@ -1,0 +1,8 @@
+
+#Client only settings
+[client]
+	#Modifies the sensitivity of scrolling for BetterGUI scrollables. Default: 10.0
+	#min: 0.0, max:Infinity
+	#Range: 0.0 ~ Infinity
+	scrollSensitivity = 10.0
+
