@@ -1,0 +1,9 @@
+
+[Enchantments]
+	#Prevents Armor Hotswap from equipping armor with a curse on it.
+	preventCurses = true
+
+["Item Blacklist"]
+	#List of items that will be blacklisted when swapping armor. Ex: ["minecraft:diamond_chestplate", "minecraft:pumpkin"]
+	itemBlacklist = [""]
+
