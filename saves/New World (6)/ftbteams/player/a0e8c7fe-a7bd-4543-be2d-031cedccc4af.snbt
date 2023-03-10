@@ -1,0 +1,19 @@
+{
+	id: "a0e8c7fe-a7bd-4543-be2d-031cedccc4af"
+	type: "player"
+	player_name: "TigerTy9"
+	ranks: {
+		a0e8c7fe-a7bd-4543-be2d-031cedccc4af: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "TigerTy9"
+		"ftbteams:color": "#7E59FF"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

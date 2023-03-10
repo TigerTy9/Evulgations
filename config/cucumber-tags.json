@@ -25,7 +25,7 @@
   "forge:gems/ruby": "thermal:ruby",
   "forge:ingots/tungsten": "null",
   "forge:silicon": "refinedstorage:silicon",
-  "forge:ingots/brass": "null",
+  "forge:ingots/brass": "create:brass_ingot",
   "forge:ingots/graphite": "bigreactors:graphite_ingot",
   "forge:dusts/sulfur": "thermal:sulfur_dust",
   "forge:gems/sapphire": "thermal:sapphire",

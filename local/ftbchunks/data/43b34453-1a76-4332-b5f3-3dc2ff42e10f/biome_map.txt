@@ -1,0 +1,13 @@
+#6C5 byg:aspen_forest
+#181 minecraft:birch_forest
+#140 terraforged:cave
+#5E1 the_forgotten_dimensions:dense_dead_snowy_forest
+#4CD thenexus:gloomstone_wastes
+#3F8 the_forgotten_dimensions:ice_pine_forest
+#573 the_forgotten_dimensions:ice_valley
+#47F biomesoplenty:mediterranean_forest
+#1DF minecraft:old_growth_birch_forest
+#698 biomesoplenty:redwood_forest
+#5FF minecraft:river
+#2D6 thenexus:sculk_undergrowth
+#306 the_forgotten_dimensions:snowy_forest
