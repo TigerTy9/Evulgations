@@ -1,285 +1,612 @@
 {
-  "betterdungeons:root": {
+  "upgradednetherite_items:recipes/upgraded_netherite_pearl_smithing": {
     "criteria": {
-      "always": "2023-03-07 20:21:02 -0500"
-    },
-    "done": true
-  },
-  "minecraft:nether/get_wither_skull": {
-    "criteria": {
-      "wither_skull": "2023-03-07 20:39:41 -0500"
-    },
-    "done": true
-  },
-  "minecraft:nether/summon_wither": {
-    "criteria": {
-      "summoned": "2023-03-07 20:39:47 -0500"
-    },
-    "done": true
-  },
-  "upgradednetherite_ultimate:recipes/upgraded_netherite_axe_smithing": {
-    "criteria": {
-      "has_netherite_axe": "2023-03-07 20:20:51 -0500"
-    },
-    "done": true
-  },
-  "upgradednetherite:recipes/upgraded_netherite_ingot": {
-    "criteria": {
-      "has_netherite_ingot": "2023-03-07 20:20:51 -0500"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:wither": "2023-03-07 20:40:41 -0500"
+      "has_ender_pearl": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
   "upgradednetherite:recipes/upgraded_netherite_chestplate_smithing": {
     "criteria": {
-      "has_netherite_chestplate": "2023-03-07 20:20:51 -0500"
+      "has_netherite_chestplate": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/deepslate": {
+    "criteria": {
+      "has_deepslate": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
   "upgradednetherite_ultimate:recipes/upgraded_netherite_pickaxe_smithing": {
     "criteria": {
-      "has_netherite_pickaxe": "2023-03-07 20:20:51 -0500"
+      "has_netherite_pickaxe": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
-  "minecraft:adventure/kill_all_mobs": {
+  "mcwroofs:recipes/terracotta": {
     "criteria": {
-      "minecraft:wither": "2023-03-07 20:40:41 -0500"
-    },
-    "done": false
-  },
-  "minecraft:end/root": {
-    "criteria": {
-      "entered_end": "2023-03-07 20:46:56 -0500"
+      "has_planks": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
   "upgradednetherite:recipes/upgraded_netherite_helmet_smithing": {
     "criteria": {
-      "has_netherite_helmet": "2023-03-07 20:20:51 -0500"
-    },
-    "done": true
-  },
-  "dimdungeons:dungeons/root": {
-    "criteria": {
-      "keystone_block": "2023-03-07 20:20:51 -0500"
+      "has_netherite_helmet": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
   "naturescompass:natures_compass": {
     "criteria": {
-      "has_compass": "2023-03-07 20:20:51 -0500"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_end": {
-    "criteria": {
-      "entered_end": "2023-03-07 20:46:56 -0500"
+      "has_compass": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
   "tconstruct:tools/materials_and_you": {
     "criteria": {
-      "crafted_book": "2023-03-07 20:21:02 -0500"
+      "crafted_book": "2023-03-10 18:53:49 -0500"
     },
     "done": true
   },
   "tconstruct:internal/starting_book": {
     "criteria": {
-      "tick": "2023-03-07 20:21:02 -0500"
+      "tick": "2023-03-10 18:53:49 -0500"
     },
     "done": true
   },
-  "byg:root": {
+  "twilightforest:alt/compat/ie_shaders": {
     "criteria": {
-      "tick": "2023-03-07 20:21:02 -0500"
+      "ie_masterwork": "2023-03-10 18:53:37 -0500",
+      "ie_uncommon": "2023-03-10 18:53:37 -0500",
+      "tf_masterwork": "2023-03-10 18:53:37 -0500",
+      "tf_uncommon": "2023-03-10 18:53:37 -0500",
+      "tf_common": "2023-03-10 18:53:37 -0500",
+      "ie_rare": "2023-03-10 18:53:37 -0500",
+      "ie_shader": "2023-03-10 18:53:37 -0500",
+      "ie_common": "2023-03-10 18:53:37 -0500",
+      "ie_twilight": "2023-03-10 18:53:37 -0500",
+      "tf_epic": "2023-03-10 18:53:37 -0500",
+      "ie_epic": "2023-03-10 18:53:37 -0500",
+      "tf_twilight": "2023-03-10 18:53:37 -0500",
+      "tf_shader": "2023-03-10 18:53:37 -0500",
+      "tf_rare": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
   "upgradednetherite:recipes/upgraded_netherite_shovel_smithing": {
     "criteria": {
-      "has_netherite_shovel": "2023-03-07 20:20:51 -0500"
+      "has_netherite_shovel": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
-  "upgradednetherite_ultimate:recipes/upgraded_netherite_bow_smithing": {
+  "mcwroofs:recipes/stone": {
     "criteria": {
-      "has_netherite_bow": "2023-03-07 20:20:51 -0500"
+      "has_planks": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
-  "upgradednetherite_ultimate:recipes/upgraded_netherite_leggings_smithing": {
+  "mcwroofs:recipes/jungle": {
     "criteria": {
-      "has_netherite_leggings": "2023-03-07 20:20:51 -0500"
+      "has_planks": "2023-03-10 18:53:37 -0500"
     },
     "done": true
-  },
-  "biomesoplenty:biomesoplenty/all_biomes": {
-    "criteria": {
-      "wasteland": "2023-03-07 20:23:50 -0500"
-    },
-    "done": false
   },
   "upgradednetherite_ultimate:recipes/upgraded_netherite_horse_armor": {
     "criteria": {
-      "has_netherite_ingot": "2023-03-07 20:20:51 -0500"
+      "has_netherite_ingot": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
-  "upgradednetherite:recipes/upgraded_netherite_sword_smithing": {
+  "mcwfences:recipes/sandstone": {
     "criteria": {
-      "has_netherite_sword": "2023-03-07 20:20:51 -0500"
+      "has_sand": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "mcwroofs:recipes/gutters": {
     "criteria": {
-      "minecraft:stony_shore": "2023-03-07 20:23:49 -0500",
-      "minecraft:desert": "2023-03-07 20:20:51 -0500",
-      "minecraft:warm_ocean": "2023-03-07 20:23:47 -0500"
-    },
-    "done": false
-  },
-  "byg:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2023-03-07 20:22:48 -0500"
+      "has_planks": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
-  "upgradednetherite:recipes/upgraded_netherite_boots_smithing": {
+  "mcwroofs:recipes/birch_planks": {
     "criteria": {
-      "has_netherite_boots": "2023-03-07 20:20:51 -0500"
+      "has_planks": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
-  "biomesoplenty:biomesoplenty/root": {
+  "upgradednetherite_items:recipes/gold_upgraded_netherite_apple": {
     "criteria": {
-      "wasteland": "2023-03-07 20:23:50 -0500"
+      "has_netherite_ingot": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
-  "upgradednetherite:recipes/upgraded_netherite_upgrade_smithing": {
+  "mcwroofs:recipes/oak": {
     "criteria": {
-      "has_netherite_ingot": "2023-03-07 20:20:51 -0500"
-    },
-    "done": true
-  },
-  "upgradednetherite_ultimate:recipes/upgraded_netherite_boots_smithing": {
-    "criteria": {
-      "has_netherite_boots": "2023-03-07 20:20:51 -0500"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2023-03-07 20:22:48 -0500"
-    },
-    "done": true
-  },
-  "naturescompass:natures_compass_log": {
-    "criteria": {
-      "has_recipe": "2023-03-07 20:20:51 -0500"
+      "has_planks": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
   "upgradednetherite:recipes/upgraded_netherite_axe_smithing": {
     "criteria": {
-      "has_netherite_axe": "2023-03-07 20:20:51 -0500"
+      "has_netherite_axe": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
-  "naturescompass:natures_compass_sapling": {
+  "mcwfurnitures:recipes/dark_oak": {
     "criteria": {
-      "has_recipe": "2023-03-07 20:20:51 -0500"
+      "has_planks": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
   "upgradednetherite_ultimate:recipes/upgraded_netherite_ingot": {
     "criteria": {
-      "has_netherite_ingot": "2023-03-07 20:20:51 -0500"
+      "has_netherite_ingot": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
-  "upgradednetherite:recipes/upgraded_netherite_pickaxe_smithing": {
+  "mcwroofs:recipes/cobblestone": {
     "criteria": {
-      "has_netherite_pickaxe": "2023-03-07 20:20:51 -0500"
+      "has_planks": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/root": {
+  "mcwfurnitures:recipes/jungle": {
     "criteria": {
-      "useitem": "2023-03-07 20:42:38 -0500"
+      "has_planks": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
-  "upgradednetherite:recipes/upgraded_netherite_leggings_smithing": {
+  "mcwfences:recipes/stone": {
     "criteria": {
-      "has_netherite_leggings": "2023-03-07 20:20:51 -0500"
+      "has_stone": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
-  "byg:biomepedia_gift": {
+  "mcwfurnitures:recipes/spruce": {
     "criteria": {
-      "tick": "2023-03-07 20:21:02 -0500"
+      "has_planks": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
-  "upgradednetherite_ultimate:recipes/upgraded_netherite_helmet_smithing": {
+  "mcwroofs:recipes/dark_oak": {
     "criteria": {
-      "has_netherite_helmet": "2023-03-07 20:20:51 -0500"
+      "has_planks": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
-  "tesseract:recipes/search/tesseract": {
+  "mcwfences:recipes/warped": {
     "criteria": {
-      "ender_pearl": "2023-03-07 20:20:51 -0500"
-    },
-    "done": true
-  },
-  "upgradednetherite_ultimate:recipes/upgraded_netherite_chestplate_smithing": {
-    "criteria": {
-      "has_netherite_chestplate": "2023-03-07 20:20:51 -0500"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2023-03-07 20:40:41 -0500"
+      "has_warped": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
   "upgradednetherite_ultimate:recipes/upgraded_netherite_sword_smithing": {
     "criteria": {
-      "has_netherite_sword": "2023-03-07 20:20:51 -0500"
+      "has_netherite_sword": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
-  "ironfurnaces:coal": {
+  "mcwroofs:recipes/spruce": {
     "criteria": {
-      "rainbowcoal": "2023-03-07 20:20:51 -0500"
-    },
-    "done": true
-  },
-  "upgradednetherite:recipes/upgraded_netherite_horse_armor": {
-    "criteria": {
-      "has_netherite_ingot": "2023-03-07 20:20:51 -0500"
-    },
-    "done": true
-  },
-  "upgradednetherite_ultimate:recipes/upgraded_netherite_shovel_smithing": {
-    "criteria": {
-      "has_netherite_shovel": "2023-03-07 20:20:51 -0500"
+      "has_planks": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },
   "upgradednetherite:recipes/upgraded_netherite_bow_smithing": {
     "criteria": {
-      "has_netherite_bow": "2023-03-07 20:20:51 -0500"
+      "has_netherite_bow": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/jungle": {
+    "criteria": {
+      "has_jungle": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/warped": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "upgradednetherite_ultimate:recipes/upgraded_netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_axe": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/oak": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/oak_planks": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/spruce": {
+    "criteria": {
+      "has_spruce": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/oak": {
+    "criteria": {
+      "has_oak": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/warped": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/prismarine": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/hedge": {
+    "criteria": {
+      "has_birch": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/end": {
+    "criteria": {
+      "has_end_brick": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/birch": {
+    "criteria": {
+      "has_birch": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "upgradednetherite_ultimate:recipes/upgraded_netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_leggings": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/jungle_planks": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "redwood_forest": "2023-03-10 18:54:18 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/crimson": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_sapling": {
+    "criteria": {
+      "has_recipe": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/crimson_planks": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/dark_oak_planks": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "simplyjetpacks:simplyjetpacks/jetpack_vanilla3": {
+    "criteria": {
+      "has_jetpack": "2023-03-10 18:55:38 -0500"
+    },
+    "done": true
+  },
+  "upgradednetherite_ultimate:recipes/upgraded_netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_chestplate": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/birch": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/birch": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "idas:idas_root": {
+    "criteria": {
+      "always": "2023-03-10 18:53:49 -0500"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2023-03-10 18:53:49 -0500"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/crimson": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/blackstone": {
+    "criteria": {
+      "has_blackstone": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "woodland": "2023-03-10 18:54:53 -0500",
+      "shrubland": "2023-03-10 18:54:33 -0500",
+      "old_growth_woodland": "2023-03-10 18:55:04 -0500",
+      "mediterranean_forest": "2023-03-10 18:55:07 -0500",
+      "redwood_forest": "2023-03-10 18:54:18 -0500",
+      "grassland": "2023-03-10 18:57:01 -0500"
+    },
+    "done": false
+  },
+  "mcwroofs:recipes/acacia": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2023-03-10 18:53:37 -0500",
+      "minecraft:river": "2023-03-10 18:54:07 -0500",
+      "minecraft:stony_shore": "2023-03-10 18:54:21 -0500",
+      "minecraft:forest": "2023-03-10 18:54:06 -0500",
+      "minecraft:ocean": "2023-03-10 18:56:57 -0500",
+      "minecraft:plains": "2023-03-10 18:56:58 -0500"
+    },
+    "done": false
+  },
+  "upgradednetherite:recipes/upgraded_netherite_upgrade_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "upgradednetherite_ultimate:recipes/upgraded_netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_boots": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/nether": {
+    "criteria": {
+      "has_nether_brick": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/acacia_planks": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "upgradednetherite:recipes/upgraded_netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_pickaxe": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "upgradednetherite:recipes/upgraded_netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_leggings": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/crimson": {
+    "criteria": {
+      "has_crimson": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/concrete": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/bamboo": {
+    "criteria": {
+      "has_bamboo": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/prismarine": {
+    "criteria": {
+      "has_qq": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "ironfurnaces:coal": {
+    "criteria": {
+      "rainbowcoal": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "upgradednetherite:recipes/upgraded_netherite_horse_armor": {
+    "criteria": {
+      "has_netherite_ingot": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/acacia": {
+    "criteria": {
+      "has_acacia": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/spruce_planks": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "upgradednetherite:recipes/upgraded_netherite_ingot": {
+    "criteria": {
+      "has_netherite_ingot": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/andesite": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "upgradednetherite_items:recipes/netherite_apple": {
+    "criteria": {
+      "has_netherite_ingot": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/quartz": {
+    "criteria": {
+      "has_qq": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "upgradednetherite_ultimate:recipes/upgraded_netherite_bow_smithing": {
+    "criteria": {
+      "has_netherite_bow": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/bricks": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/dark_oak": {
+    "criteria": {
+      "has_dark_oak": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "upgradednetherite:recipes/upgraded_netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_sword": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "upgradednetherite:recipes/upgraded_netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_boots": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/granite": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/warped_planks": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_log": {
+    "criteria": {
+      "has_recipe": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/awning": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/thatch": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/acacia": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "simplyjetpacks:root": {
+    "criteria": {
+      "any": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "upgradednetherite_ultimate:recipes/upgraded_netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_helmet": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/red_sandstone": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/diorite": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "tesseract:recipes/search/tesseract": {
+    "criteria": {
+      "ender_pearl": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/sandstone": {
+    "criteria": {
+      "has_planks": "2023-03-10 18:53:37 -0500"
+    },
+    "done": true
+  },
+  "upgradednetherite_ultimate:recipes/upgraded_netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_shovel": "2023-03-10 18:53:37 -0500"
     },
     "done": true
   },

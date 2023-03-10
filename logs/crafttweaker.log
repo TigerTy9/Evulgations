@@ -1,49 +1,38 @@
-[21:26:03.754][INFO]: Successfully identified and loaded plugin botania:default
-[21:26:03.763][INFO]: Successfully identified and loaded plugin jeitweaker:default
-[21:26:03.812][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
-[21:26:03.816][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[21:26:03.819][INFO]: Successfully identified and loaded plugin mekanism:crt_plugin
-[21:26:03.823][INFO]: Successfully identified and loaded plugin immersiveengineering:ct_module
-[21:26:08.991][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
-[21:26:08.993][INFO]: - 'botania' at version '1.18.2-435'
-[21:26:08.994][INFO]: - 'crafttweaker' at version '9.1.205'
-[21:26:08.994][INFO]: - 'futurepack' at version '033.0.7327'
-[21:26:08.994][INFO]: - 'immersiveengineering' at version '1.18.2-8.2.2-154'
-[21:26:08.994][INFO]: - 'initialinventory' at version '6.0.8'
-[21:26:08.994][INFO]: - 'jeitweaker' at version '3.0.0.8'
-[21:26:08.994][INFO]: - 'mekanism' at version '10.2.5'
-[21:26:08.994][INFO]: - 'mysticalagriculture' at version '5.1.0'
-[21:26:08.994][INFO]: - 'projecte' at version '1.0.1'
-[21:26:08.994][INFO]: - 'thermal' at version '9.2.0.46'
-[21:26:08.994][INFO]: - 'thermal_foundation' at version '9.2.0.46'
-[21:26:16.193][INFO]: Started loading scripts for loader 'mekanismcontent'
-[21:26:16.377][INFO]: Compiling and executing scripts
-[21:26:16.688][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[21:26:16.768][INFO]: Execution for loader 'mekanismcontent' completed successfully
-[21:26:16.768][INFO]: Registering 0 custom gases.
-[21:26:16.775][INFO]: Registering 0 custom infuse types.
-[21:26:16.786][INFO]: Registering 0 custom pigments.
-[21:26:16.790][INFO]: Registering 0 custom robit skins.
-[21:26:16.797][INFO]: Registering 0 custom slurries.
-[21:26:22.684][INFO]: Started loading scripts for loader 'initialize'
-[21:26:22.717][INFO]: Compiling and executing scripts
-[21:26:22.717][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[21:26:22.731][INFO]: Execution for loader 'initialize' completed successfully
-[21:29:05.080][INFO]: Started loading scripts for loader 'tags'
-[21:29:05.091][INFO]: Compiling and executing scripts
-[21:29:05.093][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[21:29:05.098][INFO]: Execution for loader 'tags' completed successfully
-[21:29:13.548][INFO]: Started loading scripts for loader 'crafttweaker'
-[21:29:13.558][INFO]: Compiling and executing scripts
-[21:29:13.653][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[21:29:13.660][INFO]: Execution for loader 'crafttweaker' completed successfully
-[21:31:37.456][INFO]: Started loading scripts for loader 'tags'
-[21:31:37.456][INFO]: Undoing previous actions
-[21:31:37.466][INFO]: Compiling and executing scripts
-[21:31:37.467][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[21:31:37.472][INFO]: Execution for loader 'tags' completed successfully
-[21:31:46.403][INFO]: Started loading scripts for loader 'crafttweaker'
-[21:31:46.403][INFO]: Undoing previous actions
-[21:31:46.411][INFO]: Compiling and executing scripts
-[21:31:46.468][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[21:31:46.473][INFO]: Execution for loader 'crafttweaker' completed successfully
+[18:45:58.529][INFO]: Successfully identified and loaded plugin botania:default
+[18:45:58.544][INFO]: Successfully identified and loaded plugin jeitweaker:default
+[18:45:58.576][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[18:45:58.578][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[18:45:58.581][INFO]: Successfully identified and loaded plugin mekanism:crt_plugin
+[18:45:58.584][INFO]: Successfully identified and loaded plugin immersiveengineering:ct_module
+[18:46:05.597][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[18:46:05.600][INFO]: - 'botania' at version '1.18.2-435'
+[18:46:05.600][INFO]: - 'crafttweaker' at version '9.1.205'
+[18:46:05.600][INFO]: - 'immersiveengineering' at version '1.18.2-8.2.2-154'
+[18:46:05.600][INFO]: - 'initialinventory' at version '6.0.8'
+[18:46:05.600][INFO]: - 'jeitweaker' at version '3.0.0.8'
+[18:46:05.600][INFO]: - 'mekanism' at version '10.2.5'
+[18:46:05.600][INFO]: - 'mysticalagriculture' at version '5.1.0'
+[18:46:05.600][INFO]: - 'projecte' at version '1.0.1'
+[18:46:05.600][INFO]: - 'thermal' at version '9.2.0.46'
+[18:46:05.600][INFO]: - 'thermal_foundation' at version '9.2.0.46'
+[18:46:13.845][INFO]: Started loading scripts for loader 'mekanismcontent'
+[18:46:14.065][INFO]: Compiling and executing scripts
+[18:46:14.413][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[18:46:14.504][INFO]: Execution for loader 'mekanismcontent' completed successfully
+[18:46:14.504][INFO]: Registering 0 custom gases.
+[18:46:14.511][INFO]: Registering 0 custom infuse types.
+[18:46:14.524][INFO]: Registering 0 custom pigments.
+[18:46:14.529][INFO]: Registering 0 custom robit skins.
+[18:46:14.534][INFO]: Registering 0 custom slurries.
+[18:46:20.854][INFO]: Started loading scripts for loader 'initialize'
+[18:46:20.902][INFO]: Compiling and executing scripts
+[18:46:20.903][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[18:46:20.915][INFO]: Execution for loader 'initialize' completed successfully
+[18:52:03.109][INFO]: Started loading scripts for loader 'tags'
+[18:52:03.120][INFO]: Compiling and executing scripts
+[18:52:03.122][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[18:52:03.127][INFO]: Execution for loader 'tags' completed successfully
+[18:52:12.900][INFO]: Started loading scripts for loader 'crafttweaker'
+[18:52:12.911][INFO]: Compiling and executing scripts
+[18:52:12.994][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[18:52:13.001][INFO]: Execution for loader 'crafttweaker' completed successfully

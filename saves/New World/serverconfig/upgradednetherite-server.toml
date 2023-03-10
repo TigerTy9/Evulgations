@@ -18,8 +18,6 @@
 	EnableFeatherArmor = true
 	#Enable Corrupt Upgraded Armor ?
 	EnableCorruptArmor = true
-	#Enable Echo Upgraded Armor ?
-	EnableEchoArmor = true
 
 	[Armor."Set Option"]
 		#How many pieces of Gold Upgraded armor are needed to activate the effects?
@@ -46,9 +44,6 @@
 		#How many pieces of Feather Upgraded armor are needed to activate the effects?
 		#Range: 1 ~ 4
 		UpgradedPlayerFeatherArmorRequireSet = 4
-		#How many pieces of Echo Upgraded armor are needed to activate the effects?
-		#Range: 1 ~ 4
-		UpgradedPlayerEchoArmorRequireSet = 4
 
 ["Horse Armor"]
 	#Enable Gold Upgraded Armor Horse ?
@@ -69,8 +64,6 @@
 	EnableFeatherArmorHorse = true
 	#Enable Corrupt Upgraded Armor Horse ?
 	EnableCorruptArmorHorse = true
-	#Enable Echo Upgraded Armor Horse ?
-	EnableEchoArmorHorse = true
 
 ["Tool&Weapon"]
 	#Enable Gold Upgraded Tool&Weapon ?
@@ -91,30 +84,26 @@
 	EnableFeatherTool = true
 	#Enable Corrupt Upgraded Tool&Weapon ?
 	EnableCorruptTool = true
-	#Enable Echo Upgraded Tool&Weapon ?
-	EnableEchoTool = true
 
 [Shield]
-	#Enable Gold Upgraded Shield ? (Unused)
+	#Enable Gold Upgraded Shield ?
 	EnableGoldTool = true
-	#Enable Fire Upgraded Shield ? (Unused)
+	#Enable Fire Upgraded Shield ?
 	EnableFireTool = true
-	#Enable Ender Upgraded Shield ? (Unused)
+	#Enable Ender Upgraded Shield ?
 	EnableEnderTool = true
-	#Enable Water Upgraded Shield ? (Unused)
+	#Enable Water Upgraded Shield ?
 	EnableWaterTool = true
-	#Enable Wither Upgraded Shield ? (Unused)
+	#Enable Wither Upgraded Shield ?
 	EnableWitherTool = true
-	#Enable Poison Upgraded Shield ? (Unused)
+	#Enable Poison Upgraded Shield ?
 	EnablePoisonTool = true
-	#Enable Phantom Upgraded Shield ? (Unused)
+	#Enable Phantom Upgraded Shield ?
 	EnablePhantomTool = true
-	#Enable Feather Upgraded Shield ? (Unused)
+	#Enable Feather Upgraded Shield ?
 	EnableFeatherTool = true
-	#Enable Corrupt Upgraded Shield ? (Unused)
+	#Enable Corrupt Upgraded Shield ?
 	EnableCorruptTool = true
-	#Enable Echo Upgraded Shield ? (Unused)
-	EnableEchoTool = true
 
 [Effect]
 
@@ -380,13 +369,4 @@
 			#How much is the fortune bonus increased ?
 			#Range: 1 ~ 99
 			FortuneBonusCorruptTool = 2
-
-	[Effect.Echo]
-
-		[Effect.Echo.Armor]
-			#Enable Echo Upgraded Armor Effect : Possibility that items remain in the inventory upon death ?
-			EnableKeepItemsChance = true
-			#What are the chances that your items will remain in your inventory when you die?
-			#Range: 1 ~ 100
-			KeepItemsChance = 50
 

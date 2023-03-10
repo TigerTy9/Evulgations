@@ -265,7 +265,7 @@
 	"Enable Botany Pots weeds" = true
 	#
 	#Set to false to disable compatibility with Create (in case things break)
-	"Enable Create compat" = true
+	"Enable Create compat" = false
 	#
 	#Set to false to disable compatibility with Cyclic (in case things break)
 	"Enable Cyclic compat" = true
