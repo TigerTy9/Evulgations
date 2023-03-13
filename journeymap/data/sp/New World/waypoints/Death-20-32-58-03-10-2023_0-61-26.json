@@ -1,0 +1,22 @@
+{
+  "id": "Death-20-32-58-03-10-2023_0-61-26",
+  "name": "Death 20:32:58 03-10-2023",
+  "icon": "journeymap:ui/img/waypoint-death-icon.png",
+  "colorizedIcon": "fake:color--10203362-waypoint-death-icon.png",
+  "x": 0,
+  "y": 61,
+  "z": -26,
+  "r": 100,
+  "g": 79,
+  "b": 30,
+  "enable": true,
+  "type": "Death",
+  "origin": "journeymap",
+  "dimensions": [
+    "the_forgotten_dimensions:perma_frost"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,12 +1,11 @@
-[18:46:24] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[18:46:24] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[18:46:24] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
-[18:46:24] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[18:46:24] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
-[18:46:24] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[18:46:24] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[18:46:24] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[18:46:24] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.8.4, built with forge 1.18.2-40.1.0
+[20:11:10] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[20:11:10] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[20:11:10] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
+[20:11:10] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[20:11:10] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
+[20:11:10] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[20:11:10] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[20:11:10] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.8.4, built with forge 1.18.2-40.1.0
 forge: 40.1.93
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -23,32 +22,57 @@ MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.
 FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.8.4, zoomLevel=0, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=true, dragScale=1, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.8.4, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.8.4, port=8080, enabled=false}
-CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.8.4, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[18:46:24] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
-[18:46:24] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
-[18:46:24] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
-[18:46:24] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
-[18:46:24] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
-[18:46:24] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
-[18:46:24] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
-[18:46:24] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
-[18:46:24] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
-[18:46:24] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
-[18:46:25] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 849.26ms
-[18:47:17] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[18:47:17] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[18:47:17] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[18:47:17] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\tytho\curseforge\minecraft\Instances\Evulgations%20(Divulgations)\mods\journeymap-1.18.2-5.8.4-forge.jar\assets\journeymap\theme\flat
-[18:47:17] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
-[18:47:17] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 21.48ms
-[18:47:18] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: JourneyMap 5.9.3 for Minecraft 1.18.2 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/4385879
-[18:52:21] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[18:53:23] [Server thread/INFO] [PropertiesBase] bloodmagic~dungeon (Initialized) Setting config file to version "5.8.4": journeymap.server.bloodmagic~dungeon.config
-[18:53:23] [Server thread/INFO] [PropertiesBase] bloodmagic~dungeon (Valid) Creating config file: C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\server\5.8\journeymap.server.bloodmagic~dungeon.config
-[18:53:50] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[18:53:50] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[18:53:50] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
-[18:53:51] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\waypoints
-[18:53:51] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\overworld. Memory: 7264MB total, 1954MB free 
-[18:53:53] [Render thread/INFO] [ChatLog] 
-[18:57:18] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\offline\minecraft:overworld
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.8.4, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.8.4, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
+[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[20:11:10] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 396.22ms
+[20:12:03] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[20:12:03] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[20:12:03] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[20:12:03] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\tytho\curseforge\minecraft\Instances\Evulgations%20(Divulgations)\mods\journeymap-1.18.2-5.8.4-forge.jar\assets\journeymap\theme\flat
+[20:12:03] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
+[20:12:03] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 18.69ms
+[20:12:03] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: JourneyMap 5.9.3 for Minecraft 1.18.2 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/4385879
+[20:13:35] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[20:14:01] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[20:14:01] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[20:14:01] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\waypoints
+[20:14:01] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\overworld. Memory: 5976MB total, 3160MB free 
+[20:14:03] [Render thread/INFO] [ChatLog] 
+[20:24:38] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=-1340, y=37, z=116}. Deathpoints enabled: true. Deathpoint created: true
+[20:29:07] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\minecraft:overworld
+[20:29:07] [JM-task-4/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@3cde2849
+[20:29:09] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[20:29:09] [Render thread/INFO] [WaypointStore] Loaded 2 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\waypoints
+[20:29:09] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\the_forgotten_dimensions~perma_frost. Memory: 7648MB total, 823MB free 
+[20:32:58] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=0, y=61, z=-26}. Deathpoints enabled: true. Deathpoint created: true
+[20:33:03] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\the_forgotten_dimensions:perma_frost
+[20:33:05] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[20:33:05] [Render thread/INFO] [WaypointStore] Loaded 3 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\waypoints
+[20:33:05] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\overworld. Memory: 7648MB total, 1009MB free 
+[20:35:22] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=-21, y=82, z=60}. Deathpoints enabled: true. Deathpoint created: true
+[20:38:44] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=-140, y=57, z=110}. Deathpoints enabled: true. Deathpoint created: true
+[20:45:38] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=109, y=136, z=91}. Deathpoints enabled: true. Deathpoint created: true
+[20:45:45] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=4, y=78, z=4}. Deathpoints enabled: true. Deathpoint created: true
+[20:45:50] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=-2, y=60, z=-4}. Deathpoints enabled: true. Deathpoint created: true
+[20:46:33] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=12, y=39, z=6}. Deathpoints enabled: true. Deathpoint created: true
+[20:47:02] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=7, y=31, z=11}. Deathpoints enabled: true. Deathpoint created: true
+[20:47:22] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=10, y=33, z=4}. Deathpoints enabled: true. Deathpoint created: true
+[20:47:39] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=-8, y=16, z=1}. Deathpoints enabled: true. Deathpoint created: true
+[20:47:43] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=8, y=15, z=5}. Deathpoints enabled: true. Deathpoint created: true
+[20:47:48] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=0, y=9, z=9}. Deathpoints enabled: true. Deathpoint created: true
+[20:48:01] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=5, y=2, z=-21}. Deathpoints enabled: true. Deathpoint created: true
+[20:48:18] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=2, y=7, z=-12}. Deathpoints enabled: true. Deathpoint created: true
+[20:48:41] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=0, y=0, z=9}. Deathpoints enabled: true. Deathpoint created: true
+[20:48:45] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=-3, y=40, z=7}. Deathpoints enabled: true. Deathpoint created: true
+[20:48:50] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=-6, y=-20, z=-2}. Deathpoints enabled: true. Deathpoint created: true
+[20:48:55] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=-6, y=-31, z=1}. Deathpoints enabled: true. Deathpoint created: true
+[20:49:35] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\offline\minecraft:overworld
