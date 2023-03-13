@@ -1,0 +1,4 @@
+#Mon Mar 13 12:52:11 EDT 2023
+shadowDistance=512.0
+shadowMapResolution=4096
+ADVANCED_MATERIALS=true

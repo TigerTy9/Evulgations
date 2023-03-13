@@ -1,11 +1,11 @@
-[20:11:10] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[20:11:10] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[20:11:10] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
-[20:11:10] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[20:11:10] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
-[20:11:10] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[20:11:10] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[20:11:10] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.8.4, built with forge 1.18.2-40.1.0
+[12:38:34] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[12:38:34] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[12:38:34] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
+[12:38:34] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[12:38:34] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
+[12:38:34] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[12:38:34] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[12:38:34] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.8.4, built with forge 1.18.2-40.1.0
 forge: 40.1.93
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -23,56 +23,1610 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.8
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.8.4, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.8.4, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.8.4, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.8.4, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
-[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
-[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
-[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
-[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
-[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
-[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
-[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
-[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
-[20:11:10] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
-[20:11:10] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 396.22ms
-[20:12:03] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[20:12:03] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[20:12:03] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[20:12:03] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\tytho\curseforge\minecraft\Instances\Evulgations%20(Divulgations)\mods\journeymap-1.18.2-5.8.4-forge.jar\assets\journeymap\theme\flat
-[20:12:03] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
-[20:12:03] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 18.69ms
-[20:12:03] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: JourneyMap 5.9.3 for Minecraft 1.18.2 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/4385879
-[20:13:35] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[20:14:01] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[20:14:01] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
-[20:14:01] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\waypoints
-[20:14:01] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\overworld. Memory: 5976MB total, 3160MB free 
-[20:14:03] [Render thread/INFO] [ChatLog] 
-[20:24:38] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=-1340, y=37, z=116}. Deathpoints enabled: true. Deathpoint created: true
-[20:29:07] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\minecraft:overworld
-[20:29:07] [JM-task-4/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@3cde2849
-[20:29:09] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[20:29:09] [Render thread/INFO] [WaypointStore] Loaded 2 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\waypoints
-[20:29:09] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\the_forgotten_dimensions~perma_frost. Memory: 7648MB total, 823MB free 
-[20:32:58] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=0, y=61, z=-26}. Deathpoints enabled: true. Deathpoint created: true
-[20:33:03] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\the_forgotten_dimensions:perma_frost
-[20:33:05] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[20:33:05] [Render thread/INFO] [WaypointStore] Loaded 3 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\waypoints
-[20:33:05] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World\overworld. Memory: 7648MB total, 1009MB free 
-[20:35:22] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=-21, y=82, z=60}. Deathpoints enabled: true. Deathpoint created: true
-[20:38:44] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=-140, y=57, z=110}. Deathpoints enabled: true. Deathpoint created: true
-[20:45:38] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=109, y=136, z=91}. Deathpoints enabled: true. Deathpoint created: true
-[20:45:45] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=4, y=78, z=4}. Deathpoints enabled: true. Deathpoint created: true
-[20:45:50] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=-2, y=60, z=-4}. Deathpoints enabled: true. Deathpoint created: true
-[20:46:33] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=12, y=39, z=6}. Deathpoints enabled: true. Deathpoint created: true
-[20:47:02] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=7, y=31, z=11}. Deathpoints enabled: true. Deathpoint created: true
-[20:47:22] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=10, y=33, z=4}. Deathpoints enabled: true. Deathpoint created: true
-[20:47:39] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=-8, y=16, z=1}. Deathpoints enabled: true. Deathpoint created: true
-[20:47:43] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=8, y=15, z=5}. Deathpoints enabled: true. Deathpoint created: true
-[20:47:48] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=0, y=9, z=9}. Deathpoints enabled: true. Deathpoint created: true
-[20:48:01] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=5, y=2, z=-21}. Deathpoints enabled: true. Deathpoint created: true
-[20:48:18] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=2, y=7, z=-12}. Deathpoints enabled: true. Deathpoint created: true
-[20:48:41] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=0, y=0, z=9}. Deathpoints enabled: true. Deathpoint created: true
-[20:48:45] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=-3, y=40, z=7}. Deathpoints enabled: true. Deathpoint created: true
-[20:48:50] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=-6, y=-20, z=-2}. Deathpoints enabled: true. Deathpoint created: true
-[20:48:55] [Render thread/INFO] [StateTickHandler] TigerTy9 died at BlockPos{x=-6, y=-31, z=1}. Deathpoints enabled: true. Deathpoint created: true
-[20:49:35] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\offline\minecraft:overworld
+[12:38:34] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[12:38:34] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[12:38:34] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[12:38:34] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[12:38:34] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[12:38:34] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[12:38:34] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[12:38:34] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[12:38:34] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[12:38:34] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[12:38:34] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 250.67ms
+[12:39:28] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[12:39:28] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[12:39:28] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[12:39:28] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\tytho\curseforge\minecraft\Instances\Evulgations%20(Divulgations)\mods\journeymap-1.18.2-5.8.4-forge.jar\assets\journeymap\theme\flat
+[12:39:28] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
+[12:39:28] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 22.83ms
+[12:39:29] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: JourneyMap 5.9.3 for Minecraft 1.18.2 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/4385879
+[12:41:36] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[12:42:01] [Render thread/INFO] [ChatLog] 
+[12:42:01] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[12:42:01] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[12:42:01] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\RAMTESTING\waypoints
+[12:42:01] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\RAMTESTING\overworld. Memory: 6588MB total, 2296MB free 
+[12:42:02] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:02] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:02] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:02] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:02] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:02] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.resources.ResourceLocation.toString()" because the return value of "journeymap.common.helper.BiomeHelper.getBiomeResource(net.minecraft.world.level.biome.Biome)" is null
+	at journeymap.common.nbt.RegionData.setBiome(RegionData.java:135) ~[journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:224) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.4-forge.jar%23158!/:1.18.2-5.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:03] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:08] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:08] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:08] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:08] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:08] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:08] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:08] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:08] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:08] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:08] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:08] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:49] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:49] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:49] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:49] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:49] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:49] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:49] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:49] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:49] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:49] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:49] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:52] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:52] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:52] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:52] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:53] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:53] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:53] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:53] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:53] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:53] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:53] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:53] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:53] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:53] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:53] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:53] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:53] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:42:53] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:21] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:21] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:21] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:21] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:21] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:21] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:21] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:21] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:21] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:21] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:21] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:21] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:21] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:21] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:24] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:39] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:39] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:39] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:39] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:39] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:39] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:39] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:39] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:39] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:45] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:46] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:45:46] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:14] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:17] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:20] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:23] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:26] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:27] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:29] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:29] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:29] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:30] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:33] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:46:36] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:47:48] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:49:25] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:49:25] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:49:25] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:49:25] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:49:25] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:49:25] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:49:25] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:49:25] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:49:25] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:49:25] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:49:25] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:28] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:28] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:28] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:28] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:28] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:28] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:28] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:28] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:28] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:28] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:28] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:28] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:28] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:44] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:44] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:44] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:44] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:44] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:44] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:44] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:52:44] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:31] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:57] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:57] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:57] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:57] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:57] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:57] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:57] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:57] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:57] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:57] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:57] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:57] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:57] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+java.lang.NullPointerException: null
+[12:56:57] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\offline\minecraft:overworld

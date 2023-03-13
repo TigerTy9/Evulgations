@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "TigerTy9",
+      "uniqueId": "a0e8c7fe-a7bd-4543-be2d-031cedccc4af"
+    },
+    "time": 1678717757511,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/pNMVubzNu6"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TigerTy9",
+      "uniqueId": "a0e8c7fe-a7bd-4543-be2d-031cedccc4af"
+    },
+    "time": 1678717645110,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/1PpxV4JGJC"
+    }
+  }
+]
