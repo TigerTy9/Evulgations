@@ -12,6 +12,11 @@
 	# Default: true
 	claimed_chunks_on_map: true
 	
+	# Automatically remove death waypoints if closer than this many blocks away (distance of 0 disables removal)
+	# Default: 0
+	# Range: 0 ~ 2147483647
+	death_waypoint_autoremove_distance: 0
+	
 	# Enables creation of death waypoints
 	# Default: true
 	death_waypoints: true
@@ -96,7 +101,12 @@
 	# Range: 0 ~ 255
 	water_visibility: 220
 	
-	# Distance at which waypoints start to fade
+	# Distance at which waypoint dots start to fade
+	# Default: 1.0
+	# Range: 1.0 ~ 200.0
+	waypoint_dot_fade_distance: 1.0d
+	
+	# Distance at which waypoint beacons start to fade
 	# Default: 12.0
 	# Range: 1.0 ~ 200.0
 	waypoint_fade_distance: 12.0d
@@ -143,10 +153,30 @@
 		# Valid values: "bottom_left", "left", "top_left", "top_right", "right", "bottom_right"
 		position: "top_right"
 		
+		# Applied a conditional check to the offset. When set to anything other that None, the offset will apply only to the selected minimap position.
+		# When set to none and the maps offset is greater than 0, the offset will apply to all directions
+		# Default: "none"
+		# Valid values: "bottom_left", "left", "top_left", "top_right", "right", "bottom_right", "none"
+		position_offset_condition: "none"
+		
+		# Changes the maps X offset from it's origin point. When on the Left, the map will be pushed out from the left, then from the right when on the right.
+		# Default: 0
+		# Range: -∞ ~ +∞
+		position_offset_x: 0
+		
+		# Changes the maps X offset from it's origin point. When on the Left, the map will be pushed out from the left, then from the right when on the right.
+		# Default: 0
+		# Range: -∞ ~ +∞
+		position_offset_y: 0
+		
 		# Scale of minimap
 		# Default: 1.0
 		# Range: 0.25 ~ 4.0
 		scale: 1.0d
+		
+		# Draw a square minimap instead of a circular one
+		# Default: false
+		square: false
 		
 		# Minimap visibility
 		# Default: 255

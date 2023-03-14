@@ -51,6 +51,7 @@
 #53756B minecraft:brick_slab
 #1BDBFB minecraft:brick_stairs
 #551EFB minecraft:brick_wall
+#03DC45 minecraft:bricks
 #7F3FE7 minecraft:brown_carpet
 #AD9791 minecraft:brown_glazed_terracotta
 #207534 minecraft:brown_mushroom
@@ -67,6 +68,7 @@
 #AA9109 minecraft:chiseled_stone_bricks
 #480724 thermal:cinnabar_ore
 #7FDE54 minecraft:clay
+#8B43D8 minecraft:coal_block
 #DE242D minecraft:coal_ore
 #FE4F0A minecraft:coarse_dirt
 #829486 productivebees:coarse_dirt_nest
@@ -80,6 +82,7 @@
 #3D8BFC minecraft:cobblestone_stairs
 #74DB3C minecraft:cobblestone_wall
 #8B8A11 minecraft:cobweb
+#F8497C minecraft:cocoa
 #E2D601 minecraft:composter
 #6E76AF minecraft:copper_ore
 #CC07F6 minecraft:cornflower
@@ -122,6 +125,7 @@
 #894C58 minecraft:deepslate_diamond_ore
 #0A7128 minecraft:deepslate_emerald_ore
 #216950 tinkers_reforged:deepslate_epidote_ore
+#DA9ADA mekanism:deepslate_fluorite_ore
 #7B2648 minecraft:deepslate_gold_ore
 #AEC13C tinkers_reforged:deepslate_hureaulite_ore
 #25EB69 mysticalagriculture:deepslate_inferium_ore
@@ -129,10 +133,13 @@
 #9E0209 minecraft:deepslate_lapis_ore
 #BC8A17 immersiveengineering:deepslate_ore_aluminum
 #E9DFF3 immersiveengineering:deepslate_ore_lead
+#CA8BE4 immersiveengineering:deepslate_ore_silver
+#ADB910 immersiveengineering:deepslate_ore_uranium
 #76A3AA mekanism:deepslate_osmium_ore
 #A5A48D mysticalagriculture:deepslate_prosperity_ore
 #51EFC2 ae2:deepslate_quartz_ore
 #60092A tinkers_reforged:deepslate_red_beryl_ore
+#60355C minecraft:deepslate_redstone_ore
 #8C1558 galosphere:deepslate_silver_ore
 #40D737 thermal:deepslate_sulfur_ore
 #4DC58C minecraft:deepslate_tile_slab
@@ -151,6 +158,7 @@
 #62139B tconstruct:earth_slime_fluid
 #314645 tconstruct:earth_slime_leaves
 #4C963A minecraft:emerald_ore
+#548B83 create:encased_fan
 #009B14 minecraft:farmland
 #9CF008 dtquark:fiery_blossom_leaves
 #48DF2F minecraft:fire_coral_fan
@@ -158,6 +166,7 @@
 #FC7434 biomesoplenty:flowering_oak_leaves
 #03FD87 dtbop:flowering_oak_leaves
 #DC0D87 create:fluid_pipe
+#8A9C1E ae2:fluix_block
 #DD1808 mekanism:fluorite_ore
 #5F7D4C create:flywheel
 #71321C dtquark:frosty_blossom_leaves
@@ -174,6 +183,7 @@
 #060B35 minecraft:granite
 #56470A minecraft:granite_slab
 #B0C1DA minecraft:granite_stairs
+#57F09A minecraft:granite_wall
 #3F84B7 minecraft:grass_block
 #88BAFA minecraft:gravel
 #4E1E96 productivebees:gravel_nest
@@ -201,14 +211,21 @@
 #F7CC06 minecraft:jungle_planks
 #7FCA6F minecraft:jungle_slab
 #86FFFF minecraft:jungle_stairs
+#D13BD0 dtbop:jungle_twiglet_leaves
+#81A8E2 minecraft:jungle_wood
 #3CAD79 minecraft:lantern
 #EA439B minecraft:lapis_ore
 #5AD536 minecraft:large_amethyst_bud
+#B77BCC tconstruct:large_sky_slime_crystal_bud
 #83CED3 minecraft:lava
+#09BF7C alexsmobs:leafcutter_ant_chamber
+#7675DE alexsmobs:leafcutter_anthill
+#D04965 create:light_blue_seat
 #96FD73 quark:light_blue_shingles
 #6CD75A quark:light_blue_shingles_slab
 #DC67EA quark:light_blue_shingles_stairs
 #CBF1B4 minecraft:light_blue_terracotta
+#20915B create:light_blue_toolbox
 #EC280B minecraft:light_gray_terracotta
 #7482E4 minecraft:lilac
 #DFD691 minecraft:lily_pad
@@ -216,7 +233,9 @@
 #AB08E5 quark:lime_shingles_vertical_slab
 #746434 create:limestone
 #9812BA quark:limestone
+#93C6F7 galosphere:lumiere_block
 #DE9468 minecraft:magma_block
+#12B0A8 dtbop:mahogany_leaves
 #3893E1 blue_skies:maple_planks
 #09EC4A blue_skies:maple_slab
 #EB48A2 create:mechanical_bearing
@@ -234,6 +253,7 @@
 #FFF021 waystones:mossy_waystone
 #2F9D96 biomesoplenty:mud
 #5E7A64 quark:myalite_crystal
+#B514D6 minecraft:mycelium
 #454322 minecraft:netherrack
 #461AF2 thermal:niter_ore
 #3106D2 dynamictrees:oak_branch
@@ -254,6 +274,8 @@
 #5C837A create:ochrum
 #E41AF8 beyond_earth:oil
 #478BFA create:orange_seat
+#BEAC65 quark:orange_shingles_slab
+#0D2635 quark:orange_shingles_stairs
 #8DCAA6 create:orange_toolbox
 #8F6314 minecraft:orange_tulip
 #BF0745 immersiveengineering:ore_aluminum
@@ -263,6 +285,7 @@
 #B29458 mekanism:osmium_ore
 #F6678E minecraft:oxeye_daisy
 #F799BB minecraft:oxidized_cut_copper_stairs
+#B75237 minecraft:packed_ice
 #AB1C58 minecraft:peony
 #8ACE26 dtbop:pink_cherry_leaves
 #36285C minecraft:pink_tulip
@@ -276,6 +299,8 @@
 #889379 minecraft:polished_granite_slab
 #AFAC0D minecraft:poppy
 #CB1F3C minecraft:powder_snow
+#40BB61 minecraft:prismarine
+#A8C236 minecraft:prismarine_bricks
 #FD8E3B mysticalagriculture:prosperity_ore
 #E6B35B minecraft:pumpkin
 #DDEB9B minecraft:purple_concrete
@@ -294,9 +319,13 @@
 #F76170 dtbop:redwood_branch
 #50C46A dtbop:redwood_leaves
 #9670F0 dtbop:redwood_root
+#863CEF deepresonance:resonating_crystal_natural
+#A6881F deepresonance:resonating_ore_deepslate
 #F79257 deepresonance:resonating_ore_stone
 #991DF8 minecraft:rooted_dirt
 #7C8ADC biomesoplenty:rooted_sand
+#3C09B9 dynamictrees:rooty_coarse_dirt
+#7D3F66 dynamictrees:rooty_grass_block
 #95FBE4 dynamictrees:rooty_podzol
 #9C3ECB minecraft:rose_bush
 #C3948F myrtrees:rubberwood_leaves
@@ -323,6 +352,7 @@
 #8638B9 minecraft:smooth_basalt
 #872D76 minecraft:snow
 #12E6C4 minecraft:snow_block
+#A0B4F5 minecraft:soul_fire
 #A67F43 minecraft:soul_sand
 #A6B33E minecraft:soul_soil
 #6B495B minecraft:spawner
@@ -337,6 +367,7 @@
 #644DFF dtbop:spruce_poplar_leaves
 #849A07 quark:spruce_post
 #17CCAC minecraft:spruce_pressure_plate
+#09A465 dynamictrees:spruce_sapling
 #64F88A minecraft:spruce_slab
 #D9135A minecraft:spruce_stairs
 #B1D22B minecraft:spruce_trapdoor
@@ -367,6 +398,7 @@
 #9209D8 minecraft:terracotta
 #4BB956 quark:thatch
 #D11157 quark:thatch_slab
+#F5E315 biomesoplenty:toadstool_block
 #87BAF4 minecraft:tuff
 #9887C2 quark:tuff_slab
 #DD9E52 quark:tuff_stairs
@@ -381,6 +413,7 @@
 #25C45C minecraft:warped_planks
 #5BE045 minecraft:warped_slab
 #B4F855 minecraft:warped_stairs
+#5BFED4 minecraft:warped_stem
 #286466 minecraft:warped_trapdoor
 #9D2725 minecraft:warped_wart_block
 #1C0619 waystones:waystone
@@ -394,6 +427,8 @@
 #F87E7D bigreactors:yellorite_ore
 #B75DE3 minecraft:yellow_concrete
 #AD5E02 quark:yellow_shingles
+#57782B quark:yellow_shingles_slab
+#A2187B quark:yellow_shingles_stairs
 #CC6A83 minecraft:yellow_terracotta
 #97FF93 minecraft:yellow_wool
 #6137CB create:zinc_ore
