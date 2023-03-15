@@ -1,8 +1,0 @@
-#556 minecraft:beach
-#34D minecraft:deep_lukewarm_ocean
-#3DE minecraft:deep_ocean
-#79A minecraft:lukewarm_ocean
-#47F biomesoplenty:mediterranean_forest
-#5FF minecraft:river
-#274 biomesoplenty:scrubland
-#7F2 biomesoplenty:woodland
