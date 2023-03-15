@@ -1,0 +1,27 @@
+{
+	id: "a0e8c7fe-a7bd-4543-be2d-031cedccc4af"
+	type: "player"
+	player_name: "TigerTy9"
+	ranks: {
+		a0e8c7fe-a7bd-4543-be2d-031cedccc4af: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "TigerTy9"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFF0"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [ ]
+	extra: { }
+}

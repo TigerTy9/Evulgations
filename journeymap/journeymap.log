@@ -1,12 +1,11 @@
-[20:54:26] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[20:54:26] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[20:54:26] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[20:54:26] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[20:54:26] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
-[20:54:26] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[20:54:26] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[20:54:26] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[20:54:26] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.9.3, built with forge 1.18.2-40.1.86
+[20:05:48] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[20:05:48] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[20:05:48] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[20:05:48] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[20:05:48] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
+[20:05:48] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[20:05:49] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[20:05:49] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.9.4, built with forge 1.18.2-40.1.86
 forge: 40.1.93
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -18,26 +17,206 @@ Features:
 	MapSurface : singleplayer = true , multiplayer = true
 	MapCaves : singleplayer = true , multiplayer = true
 	MapBiome : singleplayer = true , multiplayer = true
-MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.9.3, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
-MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.9.3, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
-FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9.3, zoomLevel=0, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=true, dragScale=1, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
-WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.9.3, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
-WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.9.3, port=8080, enabled=false}
-CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.3, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[20:54:26] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
-[20:54:26] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
-[20:54:26] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
-[20:54:26] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
-[20:54:26] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
-[20:54:26] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
-[20:54:26] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
-[20:54:26] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
-[20:54:26] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
-[20:54:26] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
-[20:54:26] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 208.08ms
-[20:55:17] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[20:55:17] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[20:55:17] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[20:55:17] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\tytho\curseforge\minecraft\Instances\Evulgations%20(Divulgations)\mods\journeymap-1.18.2-5.9.3-forge.jar\assets\journeymap\theme\flat
-[20:55:17] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
-[20:55:17] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 21ms
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.9.4, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=night, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=-80, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.9.4, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9.4, zoomLevel=0, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=true, dragScale=1, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.9.4, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.9.4, port=8080, enabled=false}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.4, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.9.3, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
+[20:05:49] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[20:05:49] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[20:05:49] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[20:05:49] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[20:05:49] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[20:05:49] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[20:05:49] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[20:05:49] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[20:05:49] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[20:05:49] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[20:05:49] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 261.89ms
+[20:06:42] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[20:06:42] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[20:06:42] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[20:06:42] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\tytho\curseforge\minecraft\Instances\Evulgations%20(Divulgations)\mods\journeymap-1.18.2-5.9.4-forge.jar\assets\journeymap\theme\flat
+[20:06:42] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
+[20:06:42] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 22.1ms
+[20:08:20] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[20:08:51] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[20:08:51] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
+[20:08:51] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[20:08:51] [Render thread/INFO] [WaypointStore] Loaded 4 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World (5)\waypoints
+[20:08:51] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World (5)\overworld. Memory: 5016MB total, 1796MB free 
+[20:08:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/raccoon.png
+[20:08:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
+[20:08:57] [Render thread/INFO] [ChatLog] 
+[20:09:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/perch.png
+[20:10:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/brown_trout.png
+[20:10:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/bluegill.png
+[20:10:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/muskellunge.png
+[20:10:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/minnow.png
+[20:11:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/smallmouth_bass.png
+[20:11:16] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/carp.png
+[20:11:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cave_centipede.png
+[20:12:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[20:12:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for blue_skies:textures/entity_icon/arachnarch/arachnarch.png
+[20:13:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/gar.png
+[20:13:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for blue_skies:textures/entity_icon/alchemist/alchemist.png
+[20:13:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for blue_skies:textures/entity_icon/cosmic_fox/cosmic_fox.png
+[20:13:58] [Render thread/INFO] [DeathPointHandler] TigerTy9 died at BlockPos{x=63, y=67, z=-89}. Deathpoints enabled: true. Deathpoint created: true
+[20:14:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/catfish.png
+[20:14:24] [Render thread/WARN] [JMLogger] twilightforest:textures/model/iceshooter.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:14:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for blue_skies:textures/entity_icon/fish/charscale_moki.png
+[20:15:06] [Render thread/WARN] [JMLogger] twilightforest:textures/model/hydra4.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:15:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/smallmouth_bass.png
+[20:15:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/perch.png
+[20:15:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/minnow.png
+[20:15:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/bluegill.png
+[20:15:38] [Render thread/WARN] [JMLogger] twilightforest:textures/model/iceshooter.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:15:38] [Render thread/WARN] [JMLogger] twilightforest:textures/model/hydra4.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:15:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
+[20:15:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/brown_trout.png
+[20:15:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/gar.png
+[20:15:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/carp.png
+[20:15:58] [Render thread/INFO] [DeathPointHandler] TigerTy9 died at BlockPos{x=3, y=65, z=-12}. Deathpoints enabled: true. Deathpoint created: true
+[20:16:35] [Render thread/INFO] [DeathPointHandler] TigerTy9 died at BlockPos{x=14, y=65, z=-21}. Deathpoints enabled: true. Deathpoint created: true
+[20:16:43] [Render thread/INFO] [DeathPointHandler] TigerTy9 died at BlockPos{x=-2, y=65, z=-2}. Deathpoints enabled: true. Deathpoint created: true
+[20:16:49] [Render thread/INFO] [DeathPointHandler] TigerTy9 died at BlockPos{x=-3, y=65, z=-6}. Deathpoints enabled: true. Deathpoint created: true
+[20:16:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[20:17:21] [Render thread/WARN] [JMLogger] Can't get entityTexture for blue_skies:textures/entity_icon/alchemist/alchemist.png
+[20:17:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/raccoon.png
+[20:17:52] [Render thread/INFO] [DeathPointHandler] TigerTy9 died at BlockPos{x=24, y=64, z=-8}. Deathpoints enabled: true. Deathpoint created: true
+[20:17:59] [Render thread/INFO] [DeathPointHandler] TigerTy9 died at BlockPos{x=-2, y=56, z=-2}. Deathpoints enabled: true. Deathpoint created: true
+[20:18:03] [Render thread/INFO] [DeathPointHandler] TigerTy9 died at BlockPos{x=-1, y=65, z=7}. Deathpoints enabled: true. Deathpoint created: true
+[20:18:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/muskellunge.png
+[20:19:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[20:19:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/perch.png
+[20:19:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/carp.png
+[20:19:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/bluegill.png
+[20:19:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/minnow.png
+[20:19:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
+[20:19:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[20:19:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/gar.png
+[20:19:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/brown_trout.png
+[20:20:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/smallmouth_bass.png
+[20:21:03] [Render thread/WARN] [JMLogger] twilightforest:textures/model/questram.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:21:07] [Render thread/WARN] [JMLogger] twilightforest:textures/model/iceexploder.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:21:10] [Render thread/WARN] [JMLogger] twilightforest:textures/model/towerboss.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:21:16] [Render thread/WARN] [JMLogger] twilightforest:textures/model/towerboss_fire.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:21:20] [Render thread/WARN] [JMLogger] twilightforest:textures/model/towerboss_openeyes.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:22:19] [Render thread/INFO] [DeathPointHandler] TigerTy9 died at BlockPos{x=1, y=51, z=-14}. Deathpoints enabled: true. Deathpoint created: true
+[20:22:38] [Render thread/WARN] [JMLogger] twilightforest:textures/model/cubeofannihilation.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:13] [Render thread/WARN] [JMLogger] twilightforest:textures/model/yeti2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:18] [Render thread/WARN] [JMLogger] twilightforest:textures/model/pinchbeetle.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/catfish.png
+[20:23:31] [Render thread/WARN] [JMLogger] twilightforest:textures/model/mosquitoswarm.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
+[20:23:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/bluegill.png
+[20:23:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/minnow.png
+[20:23:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/gar.png
+[20:23:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/perch.png
+[20:23:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/carp.png
+[20:23:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/brown_trout.png
+[20:23:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/catfish.png
+[20:23:35] [Render thread/WARN] [JMLogger] twilightforest:textures/model/iceexploder.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:35] [Render thread/WARN] [JMLogger] twilightforest:textures/model/towerboss.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:35] [Render thread/WARN] [JMLogger] twilightforest:textures/model/cubeofannihilation.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:35] [Render thread/WARN] [JMLogger] twilightforest:textures/model/yeti2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:35] [Render thread/WARN] [JMLogger] twilightforest:textures/model/pinchbeetle.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:35] [Render thread/WARN] [JMLogger] twilightforest:textures/model/mosquitoswarm.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:41] [Render thread/WARN] [JMLogger] twilightforest:textures/model/questram.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:41] [Render thread/WARN] [JMLogger] twilightforest:textures/model/kingspider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:41] [Render thread/WARN] [JMLogger] twilightforest:textures/model/skeletondruid.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:46] [Render thread/WARN] [JMLogger] twilightforest:textures/model/kobold.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:55] [Render thread/WARN] [JMLogger] twilightforest:textures/model/mazeslime.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:24:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for minecraft:textures/entity_icon/enchanting_table_book.png
+[20:24:05] [Render thread/WARN] [JMLogger] twilightforest:textures/model/yetialpha.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:24:10] [Render thread/WARN] [JMLogger] twilightforest:textures/model/bighorn.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:24:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/smallmouth_bass.png
+[20:24:40] [Render thread/WARN] [JMLogger] twilightforest:textures/model/ghost.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:24:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/tasmanian_devil.png
+[20:24:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[20:24:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/muskellunge.png
+[20:24:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[20:25:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/leafcutter_ant.png
+[20:25:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/raccoon.png
+[20:25:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/leafcutter_ant_queen.png
+[20:25:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/capuchin_monkey_2.png
+[20:25:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/rocky_roller.png
+[20:25:14] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/grizzly_bear.png
+[20:25:14] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/void_worm_head.png
+[20:25:39] [Render thread/INFO] [DeathPointHandler] TigerTy9 died at BlockPos{x=-244, y=84, z=123}. Deathpoints enabled: true. Deathpoint created: true
+[20:27:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/catfish.png
+[20:27:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/carp.png
+[20:27:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/minnow.png
+[20:27:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/perch.png
+[20:27:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/smallmouth_bass.png
+[20:27:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/brown_trout.png
+[20:27:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/gar.png
+[20:27:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[20:27:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/void_worm_head.png
+[20:27:39] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/bluegill.png
+[20:28:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/raccoon.png
+[20:28:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/leafcutter_ant.png
+[20:28:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/muskellunge.png
+[20:28:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/capuchin_monkey_2.png
+[20:28:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/grizzly_bear.png
+[20:29:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crocodile_0.png
+[20:29:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/piranha.png
+[20:29:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/tambaqui.png
+[20:30:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
+[20:31:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/catfish_small.png
+[20:31:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/tiger/tiger_sleeping.png
+[20:31:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/carp.png
+[20:31:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/leafcutter_ant.png
+[20:31:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/tiger/tiger_sleeping.png
+[20:31:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/perch.png
+[20:31:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
+[20:31:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/minnow.png
+[20:31:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/brown_trout.png
+[20:31:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/bluegill.png
+[20:31:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/tiger/tiger_angry.png
+[20:31:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/smallmouth_bass.png
+[20:31:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/gar.png
+[20:31:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/tiger/tiger.png
+[20:34:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/terrapin_painted.png
+[20:36:45] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[20:36:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[20:36:45] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[20:36:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/muskellunge.png
+[20:37:00] [JM-task-4/WARN] [StatTimer] SurfaceRenderer.renderSurface was slow: 2905.1578 (Warning limit reached)
+[20:37:00] [JM-task-4/WARN] [StatTimer] SurfaceRenderer.renderSurface: Avg:     4.37ms, Min:     0.56ms, Max:   19783.79ms, Total:        299 sec, Count:    68529, Canceled:        0, Slow:       10
+[20:37:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/perch.png
+[20:37:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/seagull.png
+[20:37:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
+[20:37:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/raccoon.png
+[20:37:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/bluegill.png
+[20:37:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/atlantic_herring.png
+[20:37:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/brown_trout.png
+[20:37:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[20:37:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/red_grouper.png
+[20:37:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crimson_mosquito.png
+[20:37:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/minnow.png
+[20:37:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/muskellunge.png
+[20:37:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/smallmouth_bass.png
+[20:37:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[20:38:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/jellyfish.png
+[20:39:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[20:39:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/frilled_shark_depressurized.png
+[20:39:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[20:39:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/gar.png
+[20:40:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/frilled_shark.png
+[20:40:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/grizzly_bear.png
+[20:40:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/toucan/toucan_2.png
+[20:40:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/leafcutter_ant.png
+[20:40:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/hummingbird_2.png
+[20:40:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/toucan/toucan_0.png
+[20:40:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/toucan/toucan_3.png
+[20:40:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/hummingbird_0.png
+[20:40:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/hummingbird_1.png
+[20:40:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/capuchin_monkey_0.png
+[20:41:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/tuna.png
+[20:42:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/gorilla.png
+[20:42:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[20:42:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[20:42:52] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\offline\minecraft:overworld
+[20:42:52] [JM-task-4/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@2bf2aa98

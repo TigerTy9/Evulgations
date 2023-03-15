@@ -13,7 +13,7 @@ realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -36,8 +36,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:false
-resourcePacks:["vanilla","mod_resources","quark:emote_resources","Supplementaries Generated Pack","file/Omori Music Replacements v3.zip"]
-incompatibleResourcePacks:["quark:emote_resources","file/Omori Music Replacements v3.zip"]
+resourcePacks:["vanilla","mod_resources","quark:emote_resources","Supplementaries Generated Pack","file/Omori Music Replacements v3.zip","file/idasbop-1.6.0-1.18.2.zip","file/intstrong_alexsmobs-1.0.0-1.18.2.zip"]
+incompatibleResourcePacks:["quark:emote_resources","file/Omori Music Replacements v3.zip","file/idasbop-1.6.0-1.18.2.zip","file/intstrong_alexsmobs-1.0.0-1.18.2.zip"]
 lastServer:
 lang:en_us
 soundDevice:
@@ -66,7 +66,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:true
@@ -125,6 +125,7 @@ key_keybind.name.EMOTE_SLOT_6:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_7:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown
 key_keybind.name.ZOOM:key.keyboard.c
+key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.ae2.portable_item_cell:key.keyboard.unknown
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown
@@ -152,6 +153,8 @@ key_key.journeymap.fullscreen.disable_buttons:key.keyboard.h
 key_key.ftbchunks.map:key.keyboard.m
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
+key_key.ftbchunks.add_waypoint:key.keyboard.unknown
+key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
 key_bloodmagic.keybind.open_holding:key.keyboard.unknown
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
@@ -186,6 +189,7 @@ key_key.entityculling.toggle:key.keyboard.unknown
 key_key.carry.desc:key.keyboard.left.shift
 key_key.corpse.death_history:key.keyboard.u
 key_key.portal_gun_advanced_generation.reset_portals:key.keyboard.r
+key_key.industrialforegoing.backpack.desc:key.keyboard.unknown
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
 key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
 key_key.botania_corporea_request:key.keyboard.c
@@ -199,8 +203,8 @@ key_keybind.simplyjetpacks.jetpack_throttle_increase:key.keyboard.period
 key_keybind.simplyjetpacks.jetpack_throttle_decrease:key.keyboard.comma
 key_key.toggleLiquids:key.keyboard.unknown
 key_key.toggleVisible:key.keyboard.unknown
-key_placebo.toggleTrails:key.keyboard.keypad.9
 key_keybind.advancedperipherals.description:key.keyboard.left.control
+key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_key.mekanismadditions.voice:key.keyboard.u
 key_key.mekanism.mode:key.keyboard.n
@@ -215,23 +219,26 @@ key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.h
 key_key.simplybackpacks.backpackpickup.desc:key.keyboard.unknown
 key_key.simplybackpacks.backpackopen.desc:key.keyboard.unknown
-key_key.ftbquests.quests:key.keyboard.unknown
-key_key.seasonhud.seasonhudOptions:key.keyboard.h
 key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7
 key_key.moreoverlays.chunkbounds.desc:key.keyboard.f9
-key_key.observable.profile:key.keyboard.r
+key_key.seasonhud.seasonhudOptions:key.keyboard.h
+key_key.ftbquests.quests:key.keyboard.unknown
 key_key.nextDestination:key.keyboard.right.bracket
 key_key.prevDestination:key.keyboard.left.bracket
 key_key.modifier:key.keyboard.equal
 key_key.submode:key.keyboard.unknown
-key_key.beyond_earth.rocket_start:key.keyboard.space
-key_key.openManual:key.keyboard.f1
 key_key.unmountVehicle:key.keyboard.backslash
+key_key.openManual:key.keyboard.f1
 key_key.immersiveengineering.magnetEquip:key.keyboard.s
 key_key.immersiveengineering.railgunZoom:key.mouse.middle
 key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
 key_bloodmagic.keybind.cycle_holding_pos:key.keyboard.unknown
 key_bloodmagic.keybind.cycle_holding_neg:key.keyboard.unknown
+key_key.tconstruct.helmet_interact:key.keyboard.z
+key_key.tconstruct.leggings_interact:key.keyboard.i
+key_quark.keybind.lock_rotation:key.keyboard.k
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.change_hotbar:key.keyboard.z
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -250,17 +257,12 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_key.tconstruct.helmet_interact:key.keyboard.z
-key_key.tconstruct.leggings_interact:key.keyboard.i
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.z
-key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.keybind.back:key.mouse.4
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
-key_quark.keybind.lock_rotation:key.keyboard.k
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.keybind.autorun:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
@@ -273,19 +275,24 @@ key_key.projecte.fire_projectile:key.keyboard.r
 key_key.projecte.mode:key.keyboard.g
 key_key.cofh.mode_change_increment:key.keyboard.v
 key_key.cofh.mode_change_decrement:key.keyboard.b
+key_key.futurepack.all_buttons:key.keyboard.x
+key_key.futurepack.compositearmor:key.keyboard.unknown
+key_key.futurepack.gleiter:key.keyboard.unknown
+key_key.futurepack.modul_magnet:key.keyboard.unknown
+key_key.configured.open_mod_list:key.keyboard.unknown
 key_key.toolbelt.open:key.keyboard.r
 key_key.toolbelt.cycle.left:key.keyboard.unknown
 key_key.toolbelt.cycle.right:key.keyboard.unknown
 key_key.toolbelt.slot:key.keyboard.v
-soundCategory_master:0.306466
-soundCategory_music:0.05437115
+soundCategory_master:0.80633664
+soundCategory_music:0.058685444
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.5586854
 soundCategory_block:1.0
-soundCategory_hostile:0.70422536
-soundCategory_neutral:1.0
+soundCategory_hostile:0.7082279
+soundCategory_neutral:0.60223645
 soundCategory_player:1.0
-soundCategory_ambient:1.0
+soundCategory_ambient:0.50110036
 soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true

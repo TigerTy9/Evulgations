@@ -1,0 +1,14 @@
+#0D6 terralith:cave/diorite_caves
+#3D6 minecraft:cold_ocean
+#735 biomesoplenty:coniferous_forest
+#6AF biomesoplenty:crag
+#109 minecraft:deep_cold_ocean
+#67F biomesoplenty:fir_clearing
+#5FF minecraft:river
+#41A terralith:rocky_mountains
+#4C8 terralith:shield
+#7EA terralith:shield_clearing
+#5D1 terralith:snowy_shield
+#51A minecraft:stony_shore
+#03A terralith:white_cliffs
+#1D0 terralith:yellowstone

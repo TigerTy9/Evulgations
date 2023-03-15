@@ -43,6 +43,9 @@
 	#Cap the maximum bands that will be rendered
 	#Range: 0 ~ 3
 	"Maximum Bands" = 3
+	#The render style of water ripples
+	#Allowed Values: CIRCLE, DARK_CIRCLE, DARK_SQUARE, PIXELATED_CIRCLE
+	"Water Ripple Style" = "PIXELATED_CIRCLE"
 
 #Options that control the various fog effects in the client
 ["Fog Options"]
@@ -66,7 +69,7 @@
 ["Sound Options"]
 	#Scaling factor to apply to biome sounds
 	#Range: 0 ~ 100
-	"Biome Sound Volume" = 100
+	"Biome Sound Volume" = 80
 	#Scaling factor to apply to spot sounds
 	#Range: 0 ~ 100
 	"Spot Sound Volume" = 100
