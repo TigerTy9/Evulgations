@@ -13,7 +13,7 @@ realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -25,11 +25,11 @@ screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:0.5070422535211268
 renderDistance:16
-simulationDistance:10
+simulationDistance:8
 entityDistanceScaling:1.0
 guiScale:3
 particles:0
-maxFps:260
+maxFps:145
 difficulty:2
 graphicsMode:0
 ao:2
@@ -131,8 +131,6 @@ key_key.ae2.portable_item_cell:key.keyboard.unknown
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown
 key_key.ae2.wireless_pattern_encoding_terminal:key.keyboard.unknown
 key_key.ae2.wireless_pattern_access_terminal:key.keyboard.unknown
-key_key.ae2.ae2wtlib_restock:key.keyboard.unknown
-key_key.ae2.ae2wtlib_magnet:key.keyboard.unknown
 key_key.journeymap.zoom_in:key.keyboard.equal
 key_key.journeymap.zoom_out:key.keyboard.minus
 key_key.journeymap.minimap_type:key.keyboard.left.bracket
@@ -150,6 +148,8 @@ key_key.journeymap.fullscreen.south:key.keyboard.down
 key_key.journeymap.fullscreen.east:key.keyboard.right
 key_key.journeymap.fullscreen.west:key.keyboard.left
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.h
+key_key.ae2.ae2wtlib_restock:key.keyboard.unknown
+key_key.ae2.ae2wtlib_magnet:key.keyboard.unknown
 key_key.ftbchunks.map:key.keyboard.m
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
@@ -187,6 +187,9 @@ key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.carry.desc:key.keyboard.left.shift
+key_iris.keybind.reload:key.keyboard.r
+key_iris.keybind.toggleShaders:key.keyboard.k
+key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_key.corpse.death_history:key.keyboard.u
 key_key.portal_gun_advanced_generation.reset_portals:key.keyboard.r
 key_key.industrialforegoing.backpack.desc:key.keyboard.unknown
@@ -206,7 +209,6 @@ key_key.toggleVisible:key.keyboard.unknown
 key_keybind.advancedperipherals.description:key.keyboard.left.control
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
-key_key.mekanismadditions.voice:key.keyboard.u
 key_key.mekanism.mode:key.keyboard.n
 key_key.mekanism.head_mode:key.keyboard.v
 key_key.mekanism.chest_mode:key.keyboard.g
@@ -217,6 +219,7 @@ key_key.mekanism.description:key.keyboard.n:SHIFT
 key_key.mekanism.module_tweaker:key.keyboard.backslash
 key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.h
+key_key.mekanismadditions.voice:key.keyboard.u
 key_key.simplybackpacks.backpackpickup.desc:key.keyboard.unknown
 key_key.simplybackpacks.backpackopen.desc:key.keyboard.unknown
 key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7
@@ -227,8 +230,8 @@ key_key.nextDestination:key.keyboard.right.bracket
 key_key.prevDestination:key.keyboard.left.bracket
 key_key.modifier:key.keyboard.equal
 key_key.submode:key.keyboard.unknown
-key_key.unmountVehicle:key.keyboard.backslash
 key_key.openManual:key.keyboard.f1
+key_key.unmountVehicle:key.keyboard.backslash
 key_key.immersiveengineering.magnetEquip:key.keyboard.s
 key_key.immersiveengineering.railgunZoom:key.mouse.middle
 key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
@@ -236,9 +239,12 @@ key_bloodmagic.keybind.cycle_holding_pos:key.keyboard.unknown
 key_bloodmagic.keybind.cycle_holding_neg:key.keyboard.unknown
 key_key.tconstruct.helmet_interact:key.keyboard.z
 key_key.tconstruct.leggings_interact:key.keyboard.i
-key_quark.keybind.lock_rotation:key.keyboard.k
-key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.back:key.mouse.4
 key_quark.keybind.change_hotbar:key.keyboard.z
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.shift_lock:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -257,12 +263,9 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
-key_quark.keybind.transfer_insert:key.keyboard.unknown
-key_quark.keybind.transfer_extract:key.keyboard.unknown
-key_quark.keybind.shift_lock:key.keyboard.unknown
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.lock_rotation:key.keyboard.k
 key_quark.keybind.autorun:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
