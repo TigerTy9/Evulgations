@@ -1,40 +1,15 @@
-[19:57:44][modloading-worker-0] Starting futurepack 33.0.7482
-[19:57:44][modloading-worker-0] Debug Enabled: false
-[19:57:44][Thread-0] FP config just got changed on the file system!
-[19:57:46][Thread-43] OK
-[19:58:40][FP-Menue Thread] Starting Menue Thread
-[19:59:58][Worker-Main-7] Unknown Condition futurepack:generic, return always true condition
-[20:0:2][Render thread] Added class net.minecraft.world.inventory.CraftingMenu to allowed Research-Crafting containers (Player:private final net.minecraft.world.entity.player.Player net.minecraft.world.inventory.CraftingMenu.f_39351_)
-[20:0:9][Render thread] [ASYNC] Finished 1 tasks, 0 failed, took 6 ms
-[20:0:9][Render thread] [Reseource Relaod] Finished 0 tasks, 0 failed, took 0 ms
-[20:0:12][Worker-Main-4] [20:0:12][Worker-Main-13] Setup Assemply Recipes
-[20:0:12][Worker-Main-3] Setup Recycler-TimeManipulator Recipes
-[20:0:12][Worker-Main-11] [20:0:12][Worker-Main-15] Setup Industrial Furnace Recipes
-[20:0:12][Worker-Main-12] Setup Crusher Recipes
-Setup Industrial NeonFurnace Recipes
-[20:0:12][Worker-Main-5] Setup Recycler-LaserCutter Recipes
-[20:0:12][Worker-Main-7] Setup Recycler-Shredder Recipes
-Setup Zentrifuge Recipes
-[20:0:12][Worker-Main-12] Setup Crusher Recipes finised after: 20.5713 ms
-[20:0:28][Server thread] [ASYNC] Finished 1 tasks, 0 failed, took 0 ms
-[20:0:28][Server thread] Loading Researches
-[20:0:28][Server thread] Now Loading Researches from java.io.InputStreamReader@292e4792
-[20:0:28][Server thread] Now Loading Researches from java.io.InputStreamReader@15424098
-[20:0:28][Server thread] Now Loading Researches from java.io.InputStreamReader@7d971440
-[20:0:28][Server thread] Now Loading Researches from java.io.InputStreamReader@7ad9422d
-[20:0:28][Server thread] Now Loading Researches from java.io.InputStreamReader@6351a326
-[20:0:28][Server thread] Now Loading Researches from java.io.InputStreamReader@6dc58579
-[20:0:28][Server thread] Now Loading Researches from java.io.InputStreamReader@2e28805b
-[20:0:28][Server thread] Now Loading Researches from java.io.InputStreamReader@676f7a81
-[20:0:28][Server thread] Now Loading Researches from java.io.InputStreamReader@7609b531
-[20:0:28][Server thread] Item 1 nether_star needs multiple researchs to be unlocked: [Reserach futurepack:production.nind.reloaded(127), Reserach futurepack:production.nind.reduktion(128)]
-[20:0:28][Server thread] added 306 Researches
-[20:0:44][Render thread] Unable to determine player for class com.buuz135.industrial.utils.CraftingUtils$1 (Examined Fields:[])
-[20:0:50][Render thread] Added 204 recipes for futurepack:crusher
-[20:0:50][Render thread] Added 25 recipes for futurepack:furnace.industrial.neon
-[20:0:50][Render thread] Added 33 recipes for futurepack:recycler
-[20:0:50][Render thread] Added 36 recipes for futurepack:recycler
-[20:0:50][Render thread] Added 10 recipes for futurepack:furnace.industrial
-[20:0:50][Render thread] Added 91 recipes for futurepack:zentrifuge
-[20:0:50][Render thread] Added 703 recipes for futurepack:recycler
-[20:0:50][Render thread] Added 39 recipes for futurepack:assembly
+[6:46:26][modloading-worker-0] Starting futurepack 33.0.7482
+[6:46:26][modloading-worker-0] Debug Enabled: false
+[6:46:26][Thread-0] FP config just got changed on the file system!
+[6:46:27][Thread-48] null
+[6:47:23][FP-Menue Thread] Starting Menue Thread
+[6:50:54][Render thread] Added class net.minecraft.world.inventory.CraftingMenu to allowed Research-Crafting containers (Player:private final net.minecraft.world.entity.player.Player net.minecraft.world.inventory.CraftingMenu.f_39351_)
+[6:51:8][Render thread] Unable to determine player for class com.buuz135.industrial.utils.CraftingUtils$1 (Examined Fields:[])
+[6:51:15][Render thread] Added 205 recipes for futurepack:crusher
+[6:51:15][Render thread] Added 25 recipes for futurepack:furnace.industrial.neon
+[6:51:15][Render thread] Added 33 recipes for futurepack:recycler
+[6:51:15][Render thread] Added 36 recipes for futurepack:recycler
+[6:51:15][Render thread] Added 10 recipes for futurepack:furnace.industrial
+[6:51:15][Render thread] Added 91 recipes for futurepack:zentrifuge
+[6:51:15][Render thread] Added 702 recipes for futurepack:recycler
+[6:51:15][Render thread] Added 39 recipes for futurepack:assembly
