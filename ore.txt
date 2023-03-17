@@ -43,3 +43,11 @@ Galosphere
 
 Create
 - Zinc_ore | clusterSize = 12, frequency = 8.0, minHeight = -63, maxHeight = 70
+
+Tinkers Construct
+- Cobalt | veinCountCobalt = 8
+
+Mystical Agriculture
+- Solium | souliumOreChance = 0.05
+- Prosperity | prosperitySpawnRate = 12, prosperitySpawnMaxY = 24
+- Inferium | inferiumSpawnMaxY = 64, inferiumSpawnRate = 16, inferiumSpawnSize = 8, inferiumSpawnMinY = -32
