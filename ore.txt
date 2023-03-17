@@ -51,3 +51,7 @@ Mystical Agriculture
 - Solium | souliumOreChance = 0.05
 - Prosperity | prosperitySpawnRate = 12, prosperitySpawnMaxY = 24
 - Inferium | inferiumSpawnMaxY = 64, inferiumSpawnRate = 16, inferiumSpawnSize = 8, inferiumSpawnMinY = -32
+
+Deep Resonance
+retrogen = false
+Resonant Ore
