@@ -1,0 +1,45 @@
+Mekanism
+- tin
+- osmium
+- uranium
+- fluorite
+- lead
+- salt
+
+Extreme Reactors
+X Yellorium | yelloriteOreMaxClustersPerChunk = 3, yelloriteOrePerCluster = 5, yelloriteOreMaxY = 32
+-	Anglesite | anglesiteOreMaxClustersPerChunk = 2, anglesiteOrePerCluster = 5
+- Benitoite | benitoiteOreMaxClustersPerChunk = 2, benitoiteOrePerCluster = 5
+
+Tinkers Reforged
+X Bauxite_ore
+- Kepu_ore 
+- Epidote_ore
+- Hureaulite_ore
+- Red_Beryl_ore
+
+FuturePack
+X Copper_ore = 0
+X Tin_ore = 0
+X Zinz_ore = 0
+- Bauxite_ore = 7
+- Magnetite_ore = 7
+- Coal_m_ore = 10
+- Quartz_m_ore = 8
+- Copper_m_ore = 6
+
+Thermal
+- Apatite |	"Vein Count" = 4, "Vein Size" = 9, "Min Y" = -16, "Max Y" = 96
+- Silver | "Vein Count" = 4, "Vein Size" = 8, "Min Y" = -60, "Max Y" = 40
+- Lead | "Vein Count" = 6, "Vein Size" = 8, "Min Y" = -60, "Max Y" = 40
+- Nickel | "Vein Count" = 4, "Vein Size" = 8, "Min Y" = -40, "Max Y" = 120
+- Cinnabar | "Vein Count" = 1, "Vein Size" = 5, "Min Y" = -16, "Max Y" = 48
+- Sulfur | "Vein Count" = 2, "Vein Size" = 7, "Min Y" = -16, "Max Y" = 32
+- Tin | "Vein Count" = 6, "Vein Size" = 9, "Min Y" = -20, "Max Y" = 60
+- Niter | "Vein Count" = 2, "Vein Size" = 7, "Min Y" = -16, "Max Y" = 64
+
+Galosphere
+- Silver
+
+Create
+- Zinc_ore | clusterSize = 12, frequency = 8.0, minHeight = -63, maxHeight = 70
