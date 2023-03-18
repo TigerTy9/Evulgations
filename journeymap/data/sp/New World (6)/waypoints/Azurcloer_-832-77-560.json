@@ -1,0 +1,24 @@
+{
+  "id": "Azurcloer_-832-77-560",
+  "name": "Azurcloer",
+  "groupName": ":Waystones",
+  "displayId": "c5706367-f2e2-4d9e-9ad4-31efef73a173",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--1-waypoint-icon.png",
+  "x": -832,
+  "y": 77,
+  "z": -560,
+  "r": 255,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "waystones",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

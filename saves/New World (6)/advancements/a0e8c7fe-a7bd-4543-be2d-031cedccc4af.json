@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "tconstruct:tools/materials_and_you": {
+    "criteria": {
+      "crafted_book": "2023-03-17 16:42:01 -0400"
+    },
+    "done": true
+  },
   "twilightforest:alt/compat/ie_shaders": {
     "criteria": {
       "ie_masterwork": "2023-03-16 17:03:47 -0400",
@@ -70,6 +76,7 @@
     "criteria": {
       "lush_savanna": "2023-03-16 17:20:12 -0400",
       "dryland": "2023-03-16 17:03:47 -0400",
+      "wasteland": "2023-03-17 16:44:32 -0400",
       "lush_desert": "2023-03-16 17:13:43 -0400",
       "volcano": "2023-03-16 17:13:40 -0400"
     },
@@ -115,6 +122,12 @@
   "mcwroofs:recipes/birch_planks": {
     "criteria": {
       "has_planks": "2023-03-16 17:03:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-03-17 16:39:58 -0400"
     },
     "done": true
   },
@@ -322,6 +335,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "honey_bottle": "2023-03-17 16:39:58 -0400"
+    },
+    "done": false
+  },
   "mcwfences:recipes/birch": {
     "criteria": {
       "has_birch": "2023-03-16 17:03:47 -0400"
@@ -445,6 +464,12 @@
   "mcwroofs:recipes/crimson_planks": {
     "criteria": {
       "has_planks": "2023-03-16 17:03:47 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "way_sign": "2023-03-17 16:45:20 -0400"
     },
     "done": true
   },

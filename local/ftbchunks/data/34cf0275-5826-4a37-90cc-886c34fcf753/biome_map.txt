@@ -6,9 +6,13 @@
 #030 wythers:billabong
 #197 wythers:cactus_desert
 #0A8 wythers:chaparral
+#7F8 wythers:deep_desert
+#705 wythers:deep_desert_river
+#34D minecraft:deep_lukewarm_ocean
 #008 minecraft:desert
 #1E9 wythers:desert_beach
 #292 wythers:desert_river
+#334 wythers:dry_tropical_forest
 #68A wythers:dry_tropical_grassland
 #7F0 biomesoplenty:dryland
 #614 minecraft:eroded_badlands
@@ -16,6 +20,7 @@
 #00A wythers:eucalyptus_woodland
 #763 biomesoplenty:fungal_jungle
 #492 wythers:kwongan_heath
+#79A minecraft:lukewarm_ocean
 #3B0 biomesoplenty:lush_desert
 #6C1 biomesoplenty:lush_savanna
 #552 biomesoplenty:old_growth_woodland
@@ -26,6 +31,8 @@
 #5F6 biomesoplenty:rocky_rainforest
 #76B wythers:sparse_eucalyptus_woodland
 #14C biomesoplenty:spider_nest
+#51A minecraft:stony_shore
+#6B8 wythers:tropical_beach
 #78F wythers:underground
 #30B biomesoplenty:volcanic_plains
 #7CC biomesoplenty:volcano
