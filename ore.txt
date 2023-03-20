@@ -1,7 +1,7 @@
 Mekanism
 - tin
 - osmium
-- uranium
+X uranium
 - fluorite
 - lead
 - salt
@@ -22,7 +22,7 @@ FuturePack
 X Copper_ore = 0
 X Tin_ore = 0
 X Zinz_ore = 0
-- Bauxite_ore = 7
+X Bauxite_ore = 7
 - Magnetite_ore = 7
 - Coal_m_ore = 10
 - Quartz_m_ore = 8
