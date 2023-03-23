@@ -98,16 +98,16 @@
 	[world_generation.ores]
 		#Quantity of Copper Ore
 		#Range: 0 ~ 25
-		copper_ore = 10
+		copper_ore = 0
 		#Quantity of Tin Ore
 		#Range: 0 ~ 25
-		tin_ore = 10
+		tin_ore = 0
 		#Quantity of Zinc Ore
 		#Range: 0 ~ 25
-		zinz_ore = 10
+		zinz_ore = 0
 		#Quantity of Bauxite Ore
 		#Range: 0 ~ 25
-		bauxite_ore = 7
+		bauxite_ore = 0
 		#Quantity of Magnetite Ore
 		#Range: 0 ~ 25
 		magnetite_ore = 7

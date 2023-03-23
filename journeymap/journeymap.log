@@ -1,10 +1,10 @@
-[06:46:25] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[06:46:25] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[06:46:25] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[06:46:25] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[06:46:25] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
-[06:46:25] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[06:46:25] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.9.4, built with forge 1.18.2-40.1.86
+[07:08:11] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[07:08:11] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[07:08:11] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[07:08:11] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[07:08:11] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
+[07:08:11] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[07:08:11] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.9.4, built with forge 1.18.2-40.1.86
 forge: 40.2.1
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -22,78 +22,31 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.9.4, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.9.4, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.4, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=5.9.4, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.9.4, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[06:46:25] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
-[06:46:25] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
-[06:46:25] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
-[06:46:25] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
-[06:46:25] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
-[06:46:25] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
-[06:46:25] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
-[06:46:25] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
-[06:46:25] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
-[06:46:25] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
-[06:46:25] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 181.85ms
-[06:47:22] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[06:47:22] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[06:47:22] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[06:47:22] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\tytho\curseforge\minecraft\Instances\Evulgations%20(Divulgations)\mods\journeymap-1.18.2-5.9.4-forge.jar\assets\journeymap\theme\flat
-[06:47:22] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[06:47:22] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 42.62ms
-[06:48:27] [Netty Client IO #1/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[06:48:30] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server\waypoints
-[06:48:30] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server\overworld. Memory: 4068MB total, 1476MB free 
-[06:48:54] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server\minecraft:overworld
-[06:48:54] [Render thread/INFO] [JourneymapClient] World UID is set to: 75b17912-41f2-4764-9857-735ba032cd39
-[06:48:58] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
-[06:48:58] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
-[06:48:58] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server_75b17912~41f2~4764~9857~735ba032cd39\waypoints
-[06:48:58] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server_75b17912~41f2~4764~9857~735ba032cd39\overworld. Memory: 5188MB total, 878MB free 
-[06:49:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/bluegill.png
-[06:49:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/grizzly_bear.png
-[06:49:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/carp.png
-[06:49:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/brown_trout.png
-[06:49:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/tasmanian_devil.png
-[06:49:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/minnow.png
-[06:49:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/perch.png
-[06:49:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/gar.png
-[06:49:35] [Render thread/INFO] [ChatLog] 
-[06:49:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
-[06:50:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
-[06:51:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/catfish.png
-[06:53:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/smallmouth_bass.png
-[06:55:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for tconstruct:textures/entity_icon/sky_slime.png
-[06:57:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/raccoon.png
-[07:06:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/muskellunge.png
-[07:06:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/bluegill.png
-[07:06:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/minnow.png
-[07:06:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/brown_trout.png
-[07:06:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/perch.png
-[07:06:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/tasmanian_devil.png
-[07:06:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/grizzly_bear.png
-[07:06:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
-[07:06:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/muskellunge.png
-[07:06:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
-[07:12:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/smallmouth_bass.png
-[07:12:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/carp.png
-[07:12:14] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/catfish.png
-[07:13:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/gar.png
-[07:13:16] [Render thread/WARN] [JMLogger] Can't get entityTexture for tconstruct:textures/entity_icon/sky_slime.png
-[07:14:10] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server_75b17912~41f2~4764~9857~735ba032cd39\minecraft:overworld
-[07:14:45] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
-[07:14:45] [Render thread/INFO] [JourneymapClient] World UID is set to: null
-[07:15:37] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[07:16:06] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World (8)\waypoints
-[07:16:06] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World (8)\overworld. Memory: 7200MB total, 2497MB free 
-[07:16:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/orca_se.png
-[07:16:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/pink_salmon.png
-[07:16:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/tusklin.png
-[07:16:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/red_grouper.png
-[07:16:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for waddles:textures/entity_icon/penguin/adelie.png
-[07:17:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cachalot/cachalot_whale.png
-[07:17:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/atlantic_herring.png
-[07:20:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/pacific_halibut.png
-[07:20:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/atlantic_cod.png
-[07:21:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/moose_antlered.png
-[07:26:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/raccoon.png
-[07:29:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/bison.png
-[07:30:24] [Server thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\sp\New World (8)\minecraft:overworld
+[07:08:11] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[07:08:11] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[07:08:11] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[07:08:11] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[07:08:11] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[07:08:11] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[07:08:11] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[07:08:11] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[07:08:11] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[07:08:11] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[07:08:11] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 199.24ms
+[07:09:07] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[07:09:07] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[07:09:07] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[07:09:07] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\tytho\curseforge\minecraft\Instances\Evulgations%20(Divulgations)\mods\journeymap-1.18.2-5.9.4-forge.jar\assets\journeymap\theme\flat
+[07:09:07] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[07:09:07] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 43.62ms
+[07:10:15] [Netty Client IO #1/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[07:10:36] [Render thread/INFO] [JourneymapClient] World UID is set to: 814490e6-b1d8-47f4-b20a-36503799426e
+[07:10:39] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
+[07:10:39] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[07:10:39] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server_814490e6~b1d8~47f4~b20a~36503799426e\waypoints
+[07:10:39] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server_814490e6~b1d8~47f4~b20a~36503799426e\overworld. Memory: 4388MB total, 1302MB free 
+[07:10:47] [Render thread/INFO] [ChatLog] 
+[07:13:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for quark:textures/entity_icon/stoneling/dripstone.png
+[07:13:53] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server_814490e6~b1d8~47f4~b20a~36503799426e\minecraft:overworld
+[07:13:59] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[07:13:59] [Render thread/INFO] [JourneymapClient] World UID is set to: null

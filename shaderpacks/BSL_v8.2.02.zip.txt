@@ -1,3 +1,0 @@
-#Mon Mar 20 06:59:08 EDT 2023
-LIGHT_SHAFT=false
-AO=false

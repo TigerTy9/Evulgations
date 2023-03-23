@@ -101,10 +101,10 @@
 		#Range: > 0
 		userWorldGenVersion = 1
 		#Enable generation of Yellorite Ore.
-		yelloriteOreEnableWorldGen = true
+		yelloriteOreEnableWorldGen = false
 		#Maximum number of Yellorite Ore clusters per chunk.
 		#Range: 1 ~ 25
-		yelloriteOreMaxClustersPerChunk = 3
+		yelloriteOreMaxClustersPerChunk = 2
 		#Maximum number of Yellorite Ores to generate in each cluster.
 		#Range: 1 ~ 16
 		yelloriteOrePerCluster = 5

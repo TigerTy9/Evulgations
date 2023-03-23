@@ -11,13 +11,13 @@
 	#If TRUE, mod integration support for Dyenamics is enabled, if the mod is loaded.
 	Dyenamics = true
 	#If TRUE, mod integration support for Farmer's Delight is enabled, if the mod is loaded.
-	"Farmer's Delight" = true
+	"Farmer's Delight" = false
 	#If TRUE, mod integration support for Immersive Engineering is enabled, if the mod is loaded.
 	"Immersive Engineering" = true
 	#If TRUE, mod integration support for Quark is enabled, if the mod is loaded.
 	Quark = true
 	#If TRUE, mod integration support for Refined Storage is enabled, if the mod is loaded.
-	"Refined Storage" = true
+	"Refined Storage" = false
 	#If TRUE, mod integration support for Tinker's Construct is enabled, if the mod is loaded.
 	"Tinker's Construct" = true
 	#If TRUE, mod integration support for Biomes O' Plenty is enabled, if the mod is loaded.
