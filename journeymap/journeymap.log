@@ -50,3 +50,45 @@ CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.4, ve
 [07:13:53] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server_814490e6~b1d8~47f4~b20a~36503799426e\minecraft:overworld
 [07:13:59] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
 [07:13:59] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[07:23:03] [Netty Client IO #22/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[07:23:04] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server\waypoints
+[07:23:04] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server\overworld. Memory: 7200MB total, 776MB free 
+[07:23:23] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server\minecraft:overworld
+[07:23:23] [Render thread/INFO] [JourneymapClient] World UID is set to: f164c322-01aa-4826-86f7-930c5f71d955
+[07:23:26] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server_f164c322~01aa~4826~86f7~930c5f71d955\waypoints
+[07:23:26] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server_f164c322~01aa~4826~86f7~930c5f71d955\overworld. Memory: 7200MB total, 3525MB free 
+[07:23:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/jellyfish.png
+[07:23:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/atlantic_herring.png
+[07:23:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/bluegill.png
+[07:23:29] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/red_grouper.png
+[07:23:29] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/perch.png
+[07:23:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[07:23:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/minnow.png
+[07:23:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/raccoon.png
+[07:23:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
+[07:23:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/grizzly_bear.png
+[07:23:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/tasmanian_devil.png
+[07:23:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[07:23:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/brown_trout.png
+[07:23:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/smallmouth_bass.png
+[07:23:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/gar.png
+[07:24:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for quark:textures/entity_icon/stoneling/deepslate.png
+[07:25:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for quark:textures/entity_icon/stoneling/calcite.png
+[07:25:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for quark:textures/entity_icon/stoneling/shale.png
+[07:27:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
+[07:28:01] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server_f164c322~01aa~4826~86f7~930c5f71d955\minecraft:overworld
+[07:28:19] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[07:28:19] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[07:35:34] [Netty Client IO #9/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[07:35:35] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server\waypoints
+[07:35:35] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server\overworld. Memory: 7200MB total, 3132MB free 
+[07:35:53] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server\minecraft:overworld
+[07:35:53] [Render thread/INFO] [JourneymapClient] World UID is set to: 3d8552db-9ba1-4957-b0bc-5ac532de3c7d
+[07:35:54] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server_3d8552db~9ba1~4957~b0bc~5ac532de3c7d\waypoints
+[07:35:54] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server_3d8552db~9ba1~4957~b0bc~5ac532de3c7d\overworld. Memory: 7200MB total, 2738MB free 
+[07:36:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/carp.png
+[07:36:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for quark:textures/entity_icon/stoneling/tuff.png
+[07:37:21] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cave_centipede.png
+[07:38:57] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\tytho\curseforge\minecraft\Instances\Evulgations (Divulgations)\journeymap\data\mp\Evulgations~Server_3d8552db~9ba1~4957~b0bc~5ac532de3c7d\minecraft:overworld
+[07:39:03] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[07:39:03] [Render thread/INFO] [JourneymapClient] World UID is set to: null
