@@ -13,7 +13,7 @@ realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -23,7 +23,7 @@ mouseSensitivity:0.5
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:0.5070422535211268
+gamma:1.0
 renderDistance:16
 simulationDistance:7
 entityDistanceScaling:1.0
@@ -36,8 +36,8 @@ ao:0
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:false
-resourcePacks:["vanilla","mod_resources","quark:emote_resources","Supplementaries Generated Pack","file/Omori Music Replacements v3.zip","file/idasbop-1.6.0-1.18.2.zip","file/intstrong_alexsmobs-1.0.0-1.18.2.zip"]
-incompatibleResourcePacks:["quark:emote_resources","file/Omori Music Replacements v3.zip","file/idasbop-1.6.0-1.18.2.zip","file/intstrong_alexsmobs-1.0.0-1.18.2.zip"]
+resourcePacks:["vanilla","mod_resources","dynamic_asset_generator:client","Supplementaries Generated Pack","quark:emote_resources","file/intstrong_alexsmobs-1.0.0-1.18.2.zip","file/Omori Music Replacements v3.zip","file/idasbop-1.6.0-1.18.2.zip"]
+incompatibleResourcePacks:["quark:emote_resources","file/intstrong_alexsmobs-1.0.0-1.18.2.zip","file/Omori Music Replacements v3.zip","file/idasbop-1.6.0-1.18.2.zip"]
 lastServer:
 lang:en_us
 soundDevice:
@@ -130,9 +130,6 @@ key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.ae2.portable_item_cell:key.keyboard.unknown
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown
 key_key.ae2.wireless_pattern_encoding_terminal:key.keyboard.unknown
-key_key.ae2.wireless_pattern_access_terminal:key.keyboard.unknown
-key_key.ae2.ae2wtlib_restock:key.keyboard.unknown
-key_key.ae2.ae2wtlib_magnet:key.keyboard.unknown
 key_key.journeymap.zoom_in:key.keyboard.equal
 key_key.journeymap.zoom_out:key.keyboard.minus
 key_key.journeymap.minimap_type:key.keyboard.left.bracket
@@ -150,6 +147,9 @@ key_key.journeymap.fullscreen.south:key.keyboard.down
 key_key.journeymap.fullscreen.east:key.keyboard.right
 key_key.journeymap.fullscreen.west:key.keyboard.left
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.h
+key_key.ae2.wireless_pattern_access_terminal:key.keyboard.unknown
+key_key.ae2.ae2wtlib_restock:key.keyboard.unknown
+key_key.ae2.ae2wtlib_magnet:key.keyboard.unknown
 key_key.ftbchunks.map:key.keyboard.m
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
@@ -192,11 +192,10 @@ key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_key.corpse.death_history:key.keyboard.u
-key_key.portal_gun_advanced_generation.reset_portals:key.keyboard.r
 key_key.industrialforegoing.backpack.desc:key.keyboard.unknown
-key_key.botania_corporea_request:key.keyboard.unknown
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
 key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
+key_key.botania_corporea_request:key.keyboard.unknown
 key_key.curios.open.desc:key.keyboard.g
 key_keybind.simplyjetpacks.jetpack_gui:key.keyboard.k
 key_keybind.simplyjetpacks.jetpack_engine:key.keyboard.j
@@ -223,24 +222,29 @@ key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.h
 key_key.simplybackpacks.backpackpickup.desc:key.keyboard.unknown
 key_key.simplybackpacks.backpackopen.desc:key.keyboard.unknown
-key_key.seasonhud.seasonhudOptions:key.keyboard.h
 key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7
 key_key.moreoverlays.chunkbounds.desc:key.keyboard.f9
+key_key.seasonhud.seasonhudOptions:key.keyboard.h
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.nextDestination:key.keyboard.right.bracket
 key_key.prevDestination:key.keyboard.left.bracket
-key_key.openManual:key.keyboard.f1
-key_key.unmountVehicle:key.keyboard.backslash
 key_key.modifier:key.keyboard.equal
 key_key.submode:key.keyboard.unknown
-key_key.immersiveengineering.magnetEquip:key.keyboard.s
-key_key.immersiveengineering.railgunZoom:key.mouse.middle
-key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
+key_key.unmountVehicle:key.keyboard.backslash
+key_key.openManual:key.keyboard.f1
 key_bloodmagic.keybind.cycle_holding_pos:key.keyboard.unknown
 key_bloodmagic.keybind.cycle_holding_neg:key.keyboard.unknown
 key_key.tconstruct.helmet_interact:key.keyboard.z
 key_key.tconstruct.leggings_interact:key.keyboard.i
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.shift_lock:key.keyboard.unknown
 key_quark.keybind.change_hotbar:key.keyboard.z
+key_key.immersiveengineering.magnetEquip:key.keyboard.s
+key_key.immersiveengineering.railgunZoom:key.mouse.middle
+key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.autorun:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -259,24 +263,19 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.transfer_insert:key.keyboard.unknown
-key_quark.keybind.transfer_extract:key.keyboard.unknown
-key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.keybind.back:key.mouse.4
+key_quark.keybind.lock_rotation:key.keyboard.k
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.lock_rotation:key.keyboard.k
-key_quark.keybind.back:key.mouse.4
-key_quark.keybind.autorun:key.keyboard.unknown
-key_quark.keybind.camera_mode:key.keyboard.f12
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
-key_key.zoom:key.keyboard.c
 key_key.projecte.helmet_toggle:key.keyboard.x:SHIFT
 key_key.projecte.boots_toggle:key.keyboard.x
 key_key.projecte.charge:key.keyboard.v
-key_key.projecte.extra_function:key.keyboard.unknown
+key_key.projecte.extra_function:key.keyboard.c
 key_key.projecte.fire_projectile:key.keyboard.r
 key_key.projecte.mode:key.keyboard.g
+key_key.zoom:key.keyboard.c
 key_key.cofh.mode_change_increment:key.keyboard.v
 key_key.cofh.mode_change_decrement:key.keyboard.b
 key_key.futurepack.all_buttons:key.keyboard.x
@@ -288,7 +287,7 @@ key_key.toolbelt.open:key.keyboard.r
 key_key.toolbelt.cycle.left:key.keyboard.unknown
 key_key.toolbelt.cycle.right:key.keyboard.unknown
 key_key.toolbelt.slot:key.keyboard.v
-soundCategory_master:0.80633664
+soundCategory_master:0.50883
 soundCategory_music:0.05437115
 soundCategory_record:0.80046946
 soundCategory_weather:0.5586854

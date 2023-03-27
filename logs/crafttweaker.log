@@ -1,0 +1,43 @@
+[20:50:54.219][INFO]: Successfully identified and loaded plugin botania:default
+[20:50:54.228][INFO]: Successfully identified and loaded plugin jeitweaker:default
+[20:50:54.257][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[20:50:54.259][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[20:50:54.267][INFO]: Successfully identified and loaded plugin mekanism:crt_plugin
+[20:50:54.274][INFO]: Successfully identified and loaded plugin immersiveengineering:ct_module
+[20:50:56.444][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[20:50:56.446][INFO]: - 'aquaculture' at version '1.18.2-2.3.10'
+[20:50:56.446][INFO]: - 'botania' at version '1.18.2-435'
+[20:50:56.446][INFO]: - 'crafttweaker' at version '9.1.205'
+[20:50:56.446][INFO]: - 'futurepack' at version '033.0.7482'
+[20:50:56.446][INFO]: - 'immersiveengineering' at version '1.18.2-8.2.2-154'
+[20:50:56.446][INFO]: - 'initialinventory' at version '6.0.8'
+[20:50:56.446][INFO]: - 'jeitweaker' at version '3.0.0.9'
+[20:50:56.446][INFO]: - 'mekanism' at version '10.2.5'
+[20:50:56.446][INFO]: - 'mysticalagriculture' at version '5.1.4'
+[20:50:56.446][INFO]: - 'projecte' at version '1.0.1'
+[20:50:56.446][INFO]: - 'thermal' at version '9.2.0.46'
+[20:50:56.446][INFO]: - 'thermal_foundation' at version '9.2.0.46'
+[20:51:05.187][INFO]: Started loading scripts for loader 'mekanismcontent'
+[20:51:05.447][INFO]: Compiling and executing scripts
+[20:51:05.893][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[20:51:06.036][INFO]: Execution for loader 'mekanismcontent' completed successfully
+[20:51:06.036][INFO]: Registering 0 custom gases.
+[20:51:06.046][INFO]: Registering 0 custom infuse types.
+[20:51:06.060][INFO]: Registering 0 custom pigments.
+[20:51:06.067][INFO]: Registering 0 custom robit skins.
+[20:51:06.075][INFO]: Registering 0 custom slurries.
+[20:51:16.064][INFO]: Started loading scripts for loader 'initialize'
+[20:51:16.086][INFO]: Compiling and executing scripts
+[20:51:16.088][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[20:51:16.103][INFO]: Execution for loader 'initialize' completed successfully
+[20:54:30.643][INFO]: Started loading scripts for loader 'tags'
+[20:54:30.661][INFO]: Compiling and executing scripts
+[20:54:30.663][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[20:54:30.672][INFO]: Execution for loader 'tags' completed successfully
+[20:54:43.586][INFO]: Started loading scripts for loader 'crafttweaker'
+[20:54:43.598][INFO]: Compiling and executing scripts
+[20:54:43.675][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[20:54:43.676][INFO]: Loading file 'Initial Inventory.zs' with priority 0
+[20:54:43.705][INFO]: Adding starting item: <item:akashictome:tome>.withTag({"akashictome:data": {tconstruct: {id: "tconstruct:materials_and_you" as string, Count: 1 as byte, tag: {mantle: {book: {current_page: "" as string}}}}, futurepack: {id: "futurepack:spawn_note" as string, Count: 1 as byte, tag: {note: {last_view: 511 as int}}}, theoneprobe: {id: "theoneprobe:probenote" as string, Count: 1 as byte}, alexsmobs: {id: "alexsmobs:animal_dictionary" as string, Count: 1 as byte}, advancedperipherals: {id: "patchouli:guide_book" as string, Count: 1 as byte, tag: {"patchouli:book": "advancedperipherals:manual" as string}}}}) in slot: -1 in key: apples
+[20:54:43.707][INFO]: Execution for loader 'crafttweaker' completed successfully
+[20:54:43.709][INFO]: This reload was made possible by Phillip Swearingain and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod

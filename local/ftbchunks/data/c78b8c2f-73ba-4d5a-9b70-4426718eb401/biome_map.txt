@@ -1,0 +1,16 @@
+#02B biomesoplenty:cherry_blossom_grove
+#420 biomesoplenty:clover_patch
+#3D6 minecraft:cold_ocean
+#735 biomesoplenty:coniferous_forest
+#6AF biomesoplenty:crag
+#4F9 minecraft:dark_forest
+#6D4 biomesoplenty:field
+#010 minecraft:forest
+#0AF biomesoplenty:glowing_grotto
+#67B biomesoplenty:grassland
+#498 minecraft:lush_caves
+#515 biomesoplenty:mystic_grove
+#4F1 minecraft:ocean
+#5FF minecraft:river
+#2CF biomesoplenty:shrubland
+#51A minecraft:stony_shore

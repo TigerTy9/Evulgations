@@ -47,7 +47,7 @@
     "show_coords": false,
     "reduce_resolution_on_mac": true,
     "use_adaptive_sync": false,
-    "cloud_height": -64,
+    "cloud_height": 288,
     "toasts": true,
     "advancement_toast": true,
     "recipe_toast": true,

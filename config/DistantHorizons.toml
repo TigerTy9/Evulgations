@@ -50,7 +50,7 @@ _version = 1
 			# Before changing this config, try changing "GPU Upload methods"
 			#  and determined the best method for your hardware first. 
 			#
-			gpuUploadPerMegabyteInMilliseconds = 1
+			gpuUploadPerMegabyteInMilliseconds = 0
 
 		[client.advanced.debugging]
 			# What renderer is active? 
@@ -129,7 +129,7 @@ _version = 1
 			#
 			# The maximum value is the number of logical processors on your CPU. 
 			#
-			numberOfBufferBuilderThreads = 1
+			numberOfBufferBuilderThreads = 2
 			# How many threads should be used when generating fake 
 			# chunks outside the normal render distance? 
 			#
@@ -144,7 +144,7 @@ _version = 1
 			# so if they add up to more threads than your CPU has cores, 
 			# that shouldn't cause an issue. 
 			#
-			numberOfWorldGenerationThreads = 2.0
+			numberOfWorldGenerationThreads = 4.0
 
 	[client.graphics]
 
