@@ -1,3 +1,0 @@
-minecraft:overworld
-thenexus:the_nexus
-the_forgotten_dimensions:perma_frost

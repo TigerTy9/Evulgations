@@ -1,2 +1,0 @@
-minecraft:overworld
-the_forgotten_dimensions:perma_frost

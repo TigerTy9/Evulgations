@@ -3,7 +3,7 @@
 [overworld]
 	#The weighting of bop biome regions in the overworld.
 	#Range: > 0
-	bop_overworld_region_weight = 13
+	bop_overworld_region_weight = 4
 	#The weighting of bop biome regions in the nether.
 	#Range: > 0
 	bop_nether_region_weight = 13

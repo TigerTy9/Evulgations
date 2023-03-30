@@ -225,12 +225,12 @@
 	#Generation Settings for uranium ore.
 	[world_generation.uranium]
 		#Determines if uranium ore should be added to world generation.
-		shouldGenerate = false
+		shouldGenerate = true
 
 		#small uranium vein Generation Settings.
 		[world_generation.uranium.small]
 			#Determines if small uranium veins should be added to world generation. Note: Requires generating uranium ore to be enabled.
-			shouldGenerate = false
+			shouldGenerate = true
 			#Chance that small uranium veins generates in a chunk.
 			#Range: 1 ~ 256
 			perChunk = 4
@@ -271,7 +271,7 @@
 		#buried uranium vein Generation Settings.
 		[world_generation.uranium.buried]
 			#Determines if buried uranium veins should be added to world generation. Note: Requires generating uranium ore to be enabled.
-			shouldGenerate = false
+			shouldGenerate = true
 			#Chance that buried uranium veins generates in a chunk.
 			#Range: 1 ~ 256
 			perChunk = 7
@@ -296,7 +296,7 @@
 				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
 				type = "ABOVE_BOTTOM"
 				#Value used for calculating y for the anchor based on the type.
-				value = -24
+				value = -50
 
 			#Maximum (inclusive) height anchor for buried uranium veins.
 			[world_generation.uranium.buried.maxInclusive]
@@ -307,7 +307,7 @@
 				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
 				type = "ABOVE_BOTTOM"
 				#Value used for calculating y for the anchor based on the type.
-				value = 56
+				value = 0
 
 	#Generation Settings for fluorite ore.
 	[world_generation.fluorite]

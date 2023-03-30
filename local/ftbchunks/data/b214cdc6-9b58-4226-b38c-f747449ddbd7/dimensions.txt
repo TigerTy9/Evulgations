@@ -1,3 +1,0 @@
-minecraft:overworld
-minecraft:the_nether
-ec_mining_world:miningworld

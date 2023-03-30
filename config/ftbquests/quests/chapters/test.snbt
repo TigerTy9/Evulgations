@@ -3,9 +3,48 @@
 	group: ""
 	order_index: 0
 	filename: "test"
-	title: "Test"
+	title: "Discover Structures"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Abandoned House"
+			x: -1.0d
+			y: -1.0d
+			id: "6BC1AE25542173EA"
+			tasks: [{
+				id: "1F7EAFCCD9872C2E"
+				type: "structure"
+				title: "Stumbled across an abandoned house!"
+				structure: "idas:abandonedhouse"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			id: "415DE45E54E09EE4"
+			tasks: [{
+				id: "49AEC0C69216B665"
+				type: "advancement"
+				title: "Castle"
+				disable_toast: true
+				advancement: "idas:castle"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			secret: true
+			id: "64B052F9CE764CDE"
+			tasks: [{
+				id: "69DE33ADF7A6EE8B"
+				type: "advancement"
+				disable_toast: true
+				advancement: "idas:apothecary_abode"
+				criterion: ""
+			}]
+		}
+	]
 	quest_links: [ ]
 }
