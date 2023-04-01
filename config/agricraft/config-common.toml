@@ -32,7 +32,7 @@
 	"Clone mutations" = false
 	#
 	#Set to true to override vanilla farming, meaning vanilla seeds will be converted to agricraft seeds on planting.
-	"Override vanilla farming" = true
+	"Override vanilla farming" = false
 	#
 	#Set to true to convert seeds only in the analyzer. Has no effect if "Override vanilla farming" is set to false.
 	"Convert seeds only in analyzer" = false
@@ -146,7 +146,7 @@
 	#
 	#Minimum allowed value of the Resistance stat (setting min and max equal will freeze the stat to that value in crop breeding)
 	#Range: 1 ~ 10
-	"Resistance stat min" = 1
+	"Resistance stat min" = 3
 	#
 	#Maximum allowed value of the Resistance stat (setting min and max equal will freeze the stat to that value in crop breeding)
 	#Range: 1 ~ 10

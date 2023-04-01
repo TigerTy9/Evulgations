@@ -118,7 +118,7 @@ key_keybind.advancedperipherals.description:key.keyboard.left.control
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_key.mekanismadditions.voice:key.keyboard.u
 key_key.simplybackpacks.backpackpickup.desc:key.keyboard.unknown
-key_key.simplybackpacks.backpackopen.desc:key.keyboard.unknown
+key_key.simplybackpacks.backpackopen.desc:key.keyboard.e:SHIFT
 key_key.mekanism.mode:key.keyboard.n
 key_key.mekanism.head_mode:key.keyboard.v
 key_key.mekanism.chest_mode:key.keyboard.g
