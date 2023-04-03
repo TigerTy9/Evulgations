@@ -11,7 +11,7 @@
 			shouldSpawn = true
 			#The multiplier for weight of baby creepers spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			weightPercentage = 0.5
+			weightPercentage = 0.25
 			#The multiplier for minimum group size of baby creepers spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
 			minSizePercentage = 0.5
@@ -23,7 +23,7 @@
 			spawnCostPerEntityPercentage = 1.0
 			#The multiplier for max spawn cost of baby creepers spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			maxSpawnCostPercentage = 1.0
+			maxSpawnCostPercentage = 2.0
 			#The list of biome ids that baby creepers will not spawn in even if the normal mob variant can spawn.
 			biomeBlackList = []
 			#The list of structure ids that baby creepers will not spawn in even if the normal mob variant can spawn.
@@ -35,7 +35,7 @@
 			shouldSpawn = true
 			#The multiplier for weight of baby endermen spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			weightPercentage = 0.5
+			weightPercentage = 0.25
 			#The multiplier for minimum group size of baby endermen spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
 			minSizePercentage = 0.5
@@ -47,7 +47,7 @@
 			spawnCostPerEntityPercentage = 1.0
 			#The multiplier for max spawn cost of baby endermen spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			maxSpawnCostPercentage = 1.0
+			maxSpawnCostPercentage = 2.0
 			#The list of biome ids that baby endermen will not spawn in even if the normal mob variant can spawn.
 			biomeBlackList = []
 			#The list of structure ids that baby endermen will not spawn in even if the normal mob variant can spawn.
@@ -59,7 +59,7 @@
 			shouldSpawn = true
 			#The multiplier for weight of baby skeletons spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			weightPercentage = 0.5
+			weightPercentage = 0.25
 			#The multiplier for minimum group size of baby skeletons spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
 			minSizePercentage = 0.5
@@ -71,7 +71,7 @@
 			spawnCostPerEntityPercentage = 1.0
 			#The multiplier for max spawn cost of baby skeletons spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			maxSpawnCostPercentage = 1.0
+			maxSpawnCostPercentage = 2.0
 			#The list of biome ids that baby skeletons will not spawn in even if the normal mob variant can spawn.
 			biomeBlackList = []
 			#The list of structure ids that baby skeletons will not spawn in even if the normal mob variant can spawn.
@@ -107,7 +107,7 @@
 			shouldSpawn = true
 			#The multiplier for weight of baby wither skeletons spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			weightPercentage = 0.5
+			weightPercentage = 0.25
 			#The multiplier for minimum group size of baby wither skeletons spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
 			minSizePercentage = 0.5
@@ -119,7 +119,7 @@
 			spawnCostPerEntityPercentage = 1.0
 			#The multiplier for max spawn cost of baby wither skeletons spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			maxSpawnCostPercentage = 1.0
+			maxSpawnCostPercentage = 2.0
 			#The list of biome ids that baby wither skeletons will not spawn in even if the normal mob variant can spawn.
 			biomeBlackList = []
 			#The list of structure ids that baby wither skeletons will not spawn in even if the normal mob variant can spawn.

@@ -35,7 +35,7 @@
 	"Override vanilla farming" = false
 	#
 	#Set to true to convert seeds only in the analyzer. Has no effect if "Override vanilla farming" is set to false.
-	"Convert seeds only in analyzer" = false
+	"Convert seeds only in analyzer" = true
 	#
 	#This is a global growth rate multiplier for crops planted on crop sticks.
 	#Range: 0.0 ~ 3.0
@@ -48,7 +48,7 @@
 	"Disable weeds" = false
 	#
 	#Set to false to disable mature weeds killing plants
-	"Mature weeds kill plants" = true
+	"Mature weeds kill plants" = false
 	#
 	#Set to false to disable the spreading of weeds
 	"Weeds can spread" = true

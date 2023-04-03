@@ -6,10 +6,10 @@
 	[common.general]
 		#A multiplier for balancing fuel consumption.
 		#Range: 0.5 ~ 100.0
-		fuelUsageMultiplier = 1.0
+		fuelUsageMultiplier = 4.0
 		#A multiplier for balancing overall power production from Extreme Reactors generators.
 		#Range: 0.5 ~ 100.0
-		powerProductionMultiplier = 1.0
+		powerProductionMultiplier = 0.5
 		#Number of ticks between updates for the Redstone Port.
 		#Range: 10 ~ 100
 		ticksPerRedstoneUpdate = 20

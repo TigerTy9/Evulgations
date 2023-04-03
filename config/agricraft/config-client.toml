@@ -32,7 +32,7 @@
 	"Clone mutations" = false
 	#
 	#Set to true to override vanilla farming, meaning vanilla seeds will be converted to agricraft seeds on planting.
-	"Override vanilla farming" = false
+	"Override vanilla farming" = true
 	#
 	#Set to true to convert seeds only in the analyzer. Has no effect if "Override vanilla farming" is set to false.
 	"Convert seeds only in analyzer" = false
